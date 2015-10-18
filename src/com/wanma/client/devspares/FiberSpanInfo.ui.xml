@@ -1,0 +1,52 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+	<g:AbsolutePanel height="300px" width="388px">
+		<g:at left="35" top="29">
+			   <g:Label text="名称：" styleName="labelfont" />
+		</g:at>
+		<g:at left="116" top="25">
+			   <g:TextBox width="154px" height="16px" ui:field="fiberSpanName"/>
+		</g:at>
+		<g:at left="35" top="69">
+				<g:Label text="编码：" styleName="labelfont"/>
+		</g:at>
+		<g:at left="116" top="69">
+				<g:TextBox width="154px" height="16px" ui:field="fiberSpanCode"/>
+		</g:at>
+		
+		<g:at left="18" top="116">
+				<g:Label text="纤芯数目：" styleName="labelfont"/>
+		</g:at>
+		<g:at left="119" top="116">
+				<g:TextBox ui:field="fiberNum"/>
+		</g:at>
+		<g:at left="55" top="166">
+				<g:Label text="长度：" styleName="labelfont"/>
+		</g:at>
+		<g:at left="116" top="164">
+				<g:TextBox width="154px" height="16px" ui:field="length"/>
+		</g:at>
+		<g:at left="10" top="138">
+				<g:Label ui:field="aName"/>
+		</g:at>
+		<g:at left="10" top="163">
+				<g:Label ui:field="zName"/>
+		</g:at>
+		
+		
+		<g:at left="101" top="242">
+				<g:Button ui:field="save">保 存</g:Button>
+		</g:at>
+		<g:at left="251" top="242">
+				<g:Button ui:field="cancel">取 消</g:Button>
+		</g:at>
+		
+	</g:AbsolutePanel>
+	
+	</g:HTMLPanel>
+</ui:UiBinder> 

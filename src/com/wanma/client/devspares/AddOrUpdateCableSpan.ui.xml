@@ -1,0 +1,173 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="589px" height="560px">
+		<g:AbsolutePanel height="560px" width="589px">
+			<g:at left="10" top="10">
+				<g:Label text="新增光缆段-"/>
+			</g:at>
+			<g:at left="38" top="45">
+				<g:Label text="名称："/>
+			</g:at>
+			<g:at left="129" top="33">
+				<g:TextBox ui:field="name"/>
+			</g:at>
+			<g:at left="319" top="45">
+				<g:Label text="编码："/>
+			</g:at>
+			<g:at left="395" top="33">
+				<g:TextBox ui:field="code"/>
+			</g:at>
+			<g:at left="38" top="79">
+				<g:Label width="65px" height="16px" text="拼装名称："/>
+			</g:at>
+			<g:at left="129" top="67">
+				<g:TextBox width="151px" height="16px" ui:field="assemblyName"/>
+			</g:at>
+			<g:at left="319" top="79">
+				<g:Label width="70px" height="16px" text="拼装编码："/>
+			</g:at>
+			<g:at left="395" top="67">
+				<g:TextBox width="151px" height="16px" ui:field="assemblyCode"/>
+			</g:at>
+			<g:at left="38" top="113">
+				<g:Label width="65px" height="16px" text="光缆结构："/>
+			</g:at>
+			<g:at left="38" top="144">
+				<g:Label width="65px" height="16px" text="光纤数目："/>
+			</g:at>
+			<g:at left="129" top="135">
+				<g:TextBox width="151px" height="16px" ui:field="fibernumber"/>
+			</g:at>
+			<g:at left="319" top="113">
+				<g:Label width="70px" height="16px" text="光缆长度："/>
+			</g:at>
+			<g:at left="319" top="144">
+				<g:Label width="70px" height="16px" text="光纤长度："/>
+			</g:at>
+			<g:at left="395" top="101">
+				<g:TextBox width="151px" height="16px" ui:field="cableLength"/>
+			</g:at>
+			<g:at left="395" top="135">
+				<g:TextBox width="151px" height="16px" ui:field="fiberLength"/>
+			</g:at>
+			<g:at left="38" top="178">
+				<g:Label width="65px" height="16px" text="光纤类型："/>
+			</g:at>
+			<g:at left="319" top="178">
+				<g:Label width="70px" height="16px" text="铺设方式："/>
+			</g:at>
+			<g:at left="38" top="212">
+				<g:Label width="65px" height="16px" text="光纤模式："/>
+			</g:at>
+			<g:at left="319" top="212">
+				<g:Label width="70px" height="16px" text="备注："/>
+			</g:at>
+			<g:at left="395" top="203">
+				<g:TextBox width="151px" height="16px" ui:field="note"/>
+			</g:at>
+			<g:at left="395" top="242">
+				<g:TextBox width="151px" height="16px" ui:field="remainPosition"/>
+			</g:at>
+			<g:at left="319" top="254">
+				<g:Label width="70px" height="16px" text="盘留位置："/>
+			</g:at>
+			<g:at left="129" top="241">
+				<g:TextBox width="151px" height="16px" ui:field="remainLength"/>
+			</g:at>
+			<g:at left="38" top="253">
+				<g:Label width="65px" height="16px" text="盘留长度："/>
+			</g:at>
+			<g:at left="38" top="288">
+				<g:Label width="65px" height="16px" text="采集人："/>
+			</g:at>
+			<g:at left="129" top="276">
+				<g:TextBox width="151px" height="16px" ui:field="collector"/>
+			</g:at>
+			<g:at left="319" top="288">
+				<g:Label width="70px" height="16px" text="数据采集："/>
+			</g:at>
+			<g:at left="38" top="322">
+				<g:Label width="65px" height="16px" text="光谱名："/>
+			</g:at>
+			<g:at left="129" top="310">
+				<g:TextBox width="151px" height="16px" ui:field="lightSpectrum"/>
+			</g:at>
+			<g:at left="319" top="322">
+				<g:Label width="53px" height="16px" text="本地网："/>
+			</g:at>
+			<g:at left="395" top="310">
+				<g:TextBox width="151px" height="16px" ui:field="localNet"/>
+			</g:at>
+			<g:at left="38" top="344">
+				<g:Label width="65px" height="16px" text="长途本地：" ui:field="localRemoteLabel"/>
+			</g:at>
+			<g:at left="319" top="356">
+				<g:Label width="70px" height="16px" text="设施状态：" ui:field="deviceStatuslabel"/>
+			</g:at>
+			<g:at left="319" top="390">
+				<g:Label width="70px" height="16px" text="工程状态："/>
+			</g:at>
+			<g:at left="129" top="375">
+				<g:TextBox width="151px" height="16px" ui:field="coreLoss"/>
+			</g:at>
+			<g:at left="38" top="375">
+				<g:Label width="65px" height="16px" text="纤芯衰耗：" ui:field="coreLossLabel"/>
+			</g:at>
+			<g:at left="38" top="421">
+				<g:Label width="65px" height="16px" text="工程编号："/>
+			</g:at>
+			<g:at left="129" top="409">
+				<g:TextBox width="151px" height="16px" ui:field="projectNo"/>
+			</g:at>
+			<g:at left="319" top="453">
+				<g:Label width="70px" height="16px" text="Z端节点："/>
+			</g:at>
+			<g:at left="195" top="522">
+				<g:Button ui:field="update" width="83px" height="28px">更新</g:Button>
+			</g:at>
+			<g:at left="195" top="522">
+				<g:Button ui:field="save" width="83px" height="28px">保存</g:Button>
+			</g:at>
+			<g:at left="316" top="522">
+				<g:Button ui:field="cancel" width="83px" height="28px">取消</g:Button>
+			</g:at>
+			<g:at left="395" top="444">
+				<g:TextArea width="147px" height="41px" ui:field="ZNode"/>
+			</g:at>
+			<g:at left="38" top="452">
+				<g:Label width="70px" height="16px" text="A端节点："/>
+			</g:at>
+			<g:at left="133" top="443">
+				<g:TextArea width="147px" height="41px" ui:field="ANode"/>
+			</g:at>
+			<g:at left="129" top="109">
+				<g:ListBox width="157px" height="20px" ui:field="cableStructure"/>
+			</g:at>
+			<g:at left="129" top="169">
+				<g:ListBox width="157px" height="20px" ui:field="fiberType"/>
+			</g:at>
+			<g:at left="129" top="204">
+				<g:ListBox width="157px" height="20px" ui:field="fiberMode"/>
+			</g:at>
+			<g:at left="129" top="344">
+				<g:ListBox width="157px" height="28px" ui:field="localRemote"/>
+			</g:at>
+			<g:at left="395" top="170">
+				<g:ListBox width="157px" height="20px" ui:field="buildWay"/>
+			</g:at>
+			<g:at left="395" top="348">
+				<g:ListBox width="157px" height="20px" ui:field="deviceStatus"/>
+			</g:at>
+			<g:at left="395" top="382">
+				<g:ListBox width="157px" height="20px" ui:field="projectStatus"/>
+			</g:at>
+			<g:at left="395" top="276">
+				<p1:DateBox width="151px" height="15px" ui:field="collectData"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

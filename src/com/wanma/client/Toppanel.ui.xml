@@ -1,0 +1,88 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel height="100px" styleName="toppanel" width="100%">
+		<g:AbsolutePanel height="100px" width="100%" styleName="top-panel">
+			<g:at left="0" top="0">
+				<g:Image width="170px" height="56px" url="wanma/logo.png"/>
+			</g:at>
+			<g:at left="798" top="10">
+				<g:Label text="当前登录用户：" width="91px" height="19px"/>
+			</g:at>
+			<g:at left="1018" top="0">
+				<g:Image url="wanma/logoff.jpg"/>
+			</g:at>
+			<g:at left="0" top="63">
+				<g:MenuBar width="100%" height="35px" styleName="gwt-MenuBar gwt-MenuBar-horizontal">
+					<g:MenuItem text="管线管理" width="100px" height="28px" styleName="top-panel-label">
+						<g:MenuBar vertical="true" styleName="gwt-MenuBar gwt-MenuBar-vertical">
+							<g:MenuItem text="导入">
+								<g:MenuBar vertical="true">
+									<g:MenuItem ui:field="planData" text="规划数据"/>
+									<g:MenuItem ui:field="pipelineSource" text="管线资源"/>
+								</g:MenuBar>
+							</g:MenuItem>
+							<g:MenuItem ui:field="lightOptical" text="光缆段管理"/>
+							<g:MenuItem ui:field="resourceView" text="资源视图"/>
+						</g:MenuBar>
+					</g:MenuItem>
+					<g:MenuItem height="28px" styleName="top-panel-label" text="资源管理" width="100px">
+						<g:MenuBar vertical="true" styleName="gwt-MenuBar gwt-MenuBar-vertical">
+							<g:MenuItem text="拓扑视图">
+								<g:MenuBar vertical="true">
+									<g:MenuItem ui:field="opticalTopo" text="设备拓扑图"/>
+								</g:MenuBar>
+							</g:MenuItem>
+							<g:MenuItem ui:field="portView" text="浏览端口信息"/>
+							<g:MenuItem ui:field="sparePortView" text="查询备用端口"/>
+							<g:MenuItem text="光路由管理">
+								<g:MenuBar vertical="true">
+									<g:MenuItem ui:field="lightRouteManager" text="业务光路由管理"/>
+								</g:MenuBar>
+							</g:MenuItem>
+							<g:MenuItem ui:field="printDeviceLabel" text="标签打印"/>
+						</g:MenuBar>
+					</g:MenuItem>
+					<g:MenuItem height="28px" styleName="top-panel-label" text="设备管理" width="100px">
+						<g:MenuBar vertical="true">
+							<g:MenuItem ui:field="iodnDeviceManager" text="IODN设备管理"/>
+							<g:MenuItem ui:field="devicesTopo" text="设备拓扑图"/>
+						</g:MenuBar>
+					</g:MenuItem>
+					<g:MenuItem height="28px" styleName="top-panel-label" text="工单管理" width="100px">
+						<g:MenuBar vertical="true">
+							<g:MenuItem ui:field="businessWorkList" text="业务工单管理"/>
+							<g:MenuItem ui:field="configWorkList" text="配置工单管理"/>
+							<g:MenuItem text="巡检工单管理" ui:field="checkWorkList"/>
+							<g:MenuItem text="单板工单管理" ui:field="boardWorkList"/>
+							<g:MenuItem text="子框工单管理" ui:field="frameWorkList"/>
+						</g:MenuBar>
+					</g:MenuItem>
+					<g:MenuItem height="28px" styleName="top-panel-label" text="存量统计" width="100px">
+					</g:MenuItem>
+					<g:MenuItem height="28px" styleName="top-panel-label" text="系统" width="50px">
+						<g:MenuBar vertical="true">
+							<g:MenuItem ui:field="workerManagerItem" text="施工人员管理"/>
+							<g:MenuItem ui:field="iFieldManagerItem" text="IField管理"/>
+							<g:MenuItem ui:field="systemConfigItem" text="系统配置管理"/>
+							<g:MenuItem ui:field="alarmManagerItem" text="告警信息"/>
+							<g:MenuItem ui:field="systemSecurityItem" text="网管安全">
+								<g:MenuBar vertical="true">
+									<g:MenuItem ui:field="odnUserManager" text="网管用户管理"/>
+								</g:MenuBar>
+							</g:MenuItem>
+						</g:MenuBar>
+					</g:MenuItem>
+					<g:MenuItem height="20px" styleName="top-panel-label" text="帮助" width="50px">
+					</g:MenuItem>
+				</g:MenuBar>
+			</g:at>
+			<g:at left="889" top="10">
+				<g:Label ui:field="loginNameLabel"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

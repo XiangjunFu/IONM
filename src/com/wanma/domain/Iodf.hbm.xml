@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-5 21:53:08 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Iodf" table="IODF" schema="dbo" catalog="wanmaodn">
+        <id name="iodfId" type="int">
+            <column name="iodfId" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="code" type="string">
+            <column name="code" not-null="true" />
+        </property>
+        <property name="assemblyType" type="string">
+            <column name="assemblyType" />
+        </property>
+        <property name="assemblyNumber" type="string">
+            <column name="assemblyNumber" />
+        </property>
+        <property name="structStatus" type="string">
+            <column name="structStatus" />
+        </property>
+        <property name="phyStatus" type="string">
+            <column name="phyStatus" />
+        </property>
+        <property name="stationCode" type="string">
+            <column name="stationCode" />
+        </property>
+        <property name="hostRoomCode" type="string">
+            <column name="hostRoomCode" />
+        </property>
+        <property name="manufacturer" type="string">
+            <column name="manufacturer" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" />
+        </property>
+        <property name="oid" type="string">
+            <column name="OID" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="dutyPerson" type="string">
+            <column name="dutyPerson" />
+        </property>
+        <property name="xpositon" type="java.lang.Integer">
+            <column name="xPositon" />
+        </property>
+        <property name="yposition" type="java.lang.Integer">
+            <column name="yPosition" />
+        </property>
+        <property name="longtitude" type="java.lang.Double">
+            <column name="Longtitude" precision="53" scale="0" />
+        </property>
+        <property name="latitude" type="java.lang.Double">
+            <column name="latitude" precision="53" scale="0" />
+        </property>
+        <property name="odfId" type="int">
+            <column name="odfId" not-null="true" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+        <property name="configurationType" type="string">
+            <column name="configurationType" />
+        </property>
+        <property name="needSnmp" type="java.lang.Boolean">
+            <column name="needSNMP" />
+        </property>
+        <property name="needTimeSyn" type="java.lang.Boolean">
+            <column name="needTimeSyn" />
+        </property>
+        <property name="ip" type="string">
+            <column name="IP" />
+        </property>
+        <property name="subnetMask" type="string">
+            <column name="subnetMask" />
+        </property>
+        <property name="gateway" type="string">
+            <column name="gateway" />
+        </property>
+        <property name="temperature" type="java.lang.Integer">
+            <column name="temperature" />
+        </property>
+        <property name="targetHost" type="string">
+            <column name="targetHost" />
+        </property>
+        <property name="snmpVersion" type="string">
+            <column name="snmpVersion" />
+        </property>
+        <property name="hostTrapPort" type="string">
+            <column name="hostTrapPort" />
+        </property>
+        <property name="trapEnabled" type="java.lang.Boolean">
+            <column name="trapEnabled" />
+        </property>
+        <property name="trapHostDomain" type="string">
+            <column name="trapHostDomain" />
+        </property>
+        <property name="cabinetType" type="string">
+            <column name="cabinetType" />
+        </property>
+    </class>
+</hibernate-mapping>

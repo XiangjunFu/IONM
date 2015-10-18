@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.CableSpan" table="CableSpan" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="parentCode" type="string">
+            <column name="parentCode" />
+        </property>
+        <property name="assemblyName" type="string">
+            <column name="assemblyName" />
+        </property>
+        <property name="assemblyNumber" type="string">
+            <column name="assemblyNumber" />
+        </property>
+        <property name="structureType" type="string">
+            <column name="structureType" />
+        </property>
+        <property name="ameType" type="string">
+            <column name="aMeType" />
+        </property>
+        <property name="zmeType" type="string">
+            <column name="zMeType" />
+        </property>
+        <property name="ameCode" type="string">
+            <column name="aMeCode" />
+        </property>
+        <property name="zmeCode" type="string">
+            <column name="zMeCode" />
+        </property>
+        <property name="manufacturer" type="string">
+            <column name="manufacturer" />
+        </property>
+        <property name="phyStatue" type="string">
+            <column name="phyStatue" />
+        </property>
+        <property name="serviceStatue" type="string">
+            <column name="serviceStatue" />
+        </property>
+        <property name="length" type="java.lang.Integer">
+            <column name="length" />
+        </property>
+        <property name="fiberLength" type="java.lang.Integer">
+            <column name="fiberLength" />
+        </property>
+        <property name="fiberNumber" type="java.lang.Integer">
+            <column name="fiberNumber" />
+        </property>
+        <property name="fiberType" type="string">
+            <column name="fiberType" />
+        </property>
+        <property name="fiberModel" type="string">
+            <column name="fiberModel" />
+        </property>
+        <property name="shapeLine" type="string">
+            <column name="shapeLine" />
+        </property>
+        <property name="layingMethod" type="string">
+            <column name="layingMethod" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+        <property name="diskRemainLength" type="java.lang.Integer">
+            <column name="diskRemainLength" />
+        </property>
+        <property name="diskRemainType" type="string">
+            <column name="diskRemainType" />
+        </property>
+        <property name="dataAcquisitionTime" type="string">
+            <column name="dataAcquisitionTime" />
+        </property>
+        <property name="acquisitoner" type="string">
+            <column name="acquisitoner" />
+        </property>
+        <property name="spectrum" type="string">
+            <column name="spectrum" />
+        </property>
+        <property name="localNetwork" type="string">
+            <column name="localNetwork" />
+        </property>
+        <property name="loclaOrRemote" type="java.lang.Boolean">
+            <column name="loclaOrRemote" />
+        </property>
+        <property name="dispersion" type="java.lang.Double">
+            <column name="dispersion" precision="53" scale="0" />
+        </property>
+        <property name="projectNum" type="string">
+            <column name="projectNum" />
+        </property>
+        <property name="projectStatus" type="string">
+            <column name="projectStatus" />
+        </property>
+    </class>
+</hibernate-mapping>

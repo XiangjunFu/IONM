@@ -1,0 +1,113 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="710px" height="500px">
+		<g:AbsolutePanel width="710px" height="511px">
+			<g:at left="33" top="25">
+				<g:Label text="基本属性：" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="64" top="79">
+				<g:Label text="名称：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="64" top="126">
+				<g:Label width="60px" height="26px" styleName="labelfont" text="别名："/>
+			</g:at>
+			<g:at left="64" top="162">
+				<g:Label width="60px" height="26px" styleName="labelfont" text="局站："/>
+			</g:at>
+			<g:at left="64" top="199">
+				<g:Label width="119px" height="26px" styleName="labelfont" text="创建时间："/>
+			</g:at>
+			<g:at left="157" top="79">
+				<g:TextBox width="173px" height="22px" ui:field="name"/>
+			</g:at>
+			<g:at left="157" top="119">
+				<g:TextBox width="173px" height="22px" ui:field="alias"/>
+			</g:at>
+			<g:at left="157" top="158">
+				<g:ListBox width="173px" height="22px" ui:field="station"/>
+			</g:at>
+			<g:at left="479" top="158">
+				<g:TextBox width="173px" height="22px" ui:field="roomType"/>
+			</g:at>
+			<g:at left="386" top="162">
+				<g:Label width="101px" height="26px" styleName="labelfont" text="机房类型："/>
+			</g:at>
+			<g:at left="386" top="199">
+				<g:Label width="101px" height="26px" styleName="labelfont" text="修改时间："/>
+			</g:at>
+			<g:at left="386" top="126">
+				<g:Label width="60px" height="26px" styleName="labelfont" text="缩写："/>
+			</g:at>
+			<g:at left="386" top="79">
+				<g:Label width="60px" height="26px" styleName="labelfont" text="编码："/>
+			</g:at>
+			<g:at left="479" top="79">
+				<g:TextBox width="173px" height="22px" ui:field="code"/>
+			</g:at>
+			<g:at left="479" top="118">
+				<g:TextBox width="173px" height="22px" ui:field="shortName"/>
+			</g:at>
+			<g:at left="33" top="245">
+				<g:Label width="150px" height="40px" styleName="biglabelfont" text="机房属性："/>
+			</g:at>
+			<g:at left="64" top="297">
+				<g:Label width="119px" height="26px" styleName="labelfont" text="长途/本地："/>
+			</g:at>
+			<g:at left="167" top="301">
+				<g:ListBox width="173px" height="34px" ui:field="localOrRemote"/>
+			</g:at>
+			<g:at left="386" top="297">
+				<g:Label width="83px" height="26px" styleName="labelfont" text="楼层数："/>
+			</g:at>
+			<g:at left="479" top="297">
+				<g:TextBox width="173px" height="22px" ui:field="floors"/>
+			</g:at>
+			<g:at left="64" top="341">
+				<g:Label width="40px" height="26px" styleName="labelfont" text="长："/>
+			</g:at>
+			<g:at left="143" top="337">
+				<g:TextBox width="100px" height="22px" ui:field="length"/>
+			</g:at>
+			<g:at left="259" top="341">
+				<g:Label width="35px" height="26px" styleName="labelfont" text="宽："/>
+			</g:at>
+			<g:at left="334" top="337">
+				<g:TextBox width="100px" height="22px" ui:field="width"/>
+			</g:at>
+			<g:at left="552" top="337">
+				<g:TextBox width="100px" height="22px" ui:field="height"/>
+			</g:at>
+			<g:at left="469" top="341">
+				<g:Label width="49px" height="26px" styleName="labelfont" text="高："/>
+			</g:at>
+			<g:at left="64" top="385">
+				<g:Label width="75px" height="26px" styleName="labelfont" text="地址："/>
+			</g:at>
+			<g:at left="145" top="377">
+				<g:TextBox width="507px" height="22px" ui:field="address"/>
+			</g:at>
+			<g:at left="145" top="417">
+				<g:TextBox width="507px" height="22px" ui:field="remark"/>
+			</g:at>
+			<g:at left="64" top="425">
+				<g:Label width="75px" height="26px" styleName="labelfont" text="备注："/>
+			</g:at>
+			<g:at left="257" top="460">
+				<g:Button ui:field="save" width="110px" height="30px" text="保存"/>
+			</g:at>
+			<g:at left="514" top="460">
+				<g:Button ui:field="cancel" width="110px" height="30px" text="取消"/>
+			</g:at>
+			<g:at left="157" top="198">
+				<p1:DateBox width="173px" height="22px" ui:field="createDate"/>
+			</g:at>
+			<g:at left="479" top="199">
+				<p1:DateBox width="173px" height="22px" ui:field="updateDate"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

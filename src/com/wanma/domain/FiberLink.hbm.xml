@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.FiberLink" table="FiberLink" schema="dbo" catalog="wanmaodn">
+        <id name="fiberLinkId" type="int">
+            <column name="fiberLinkId" />
+            <generator class="assigned" />
+        </id>
+        <property name="parentCode" type="string">
+            <column name="parentCode" />
+        </property>
+        <property name="bundleSeqNo" type="java.lang.Integer">
+            <column name="bundleSeqNo" />
+        </property>
+        <property name="routeSeqNo" type="java.lang.Integer">
+            <column name="routeSeqNo" />
+        </property>
+        <property name="connectType" type="string">
+            <column name="connectType" />
+        </property>
+        <property name="ameCode" type="string">
+            <column name="aMeCode" />
+        </property>
+        <property name="aportCode" type="string">
+            <column name="aPortCode" />
+        </property>
+        <property name="zmeCode" type="string">
+            <column name="zMeCode" />
+        </property>
+        <property name="zportCode" type="string">
+            <column name="zPortCode" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+    </class>
+</hibernate-mapping>

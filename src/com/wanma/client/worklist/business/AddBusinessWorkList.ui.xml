@@ -1,0 +1,89 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="560px" height="338px">
+		<g:AbsolutePanel height="300px" width="560px">
+			<g:at left="10" top="53">
+				<g:Label text="工单名称：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="279" top="53">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="工单编码："/>
+			</g:at>
+			<g:at left="112" top="49">
+				<g:TextBox ui:field="workListName"/>
+			</g:at>
+			<g:at left="372" top="49">
+				<g:TextBox ui:field="workListCode"/>
+			</g:at>
+			<g:at left="10" top="121">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="工单类型："/>
+			</g:at>
+			<g:at left="112" top="117">
+				<g:TextBox width="151px" height="16px" ui:field="workOrderType"/>
+			</g:at>
+			<g:at left="279" top="121">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="用户名："/>
+			</g:at>
+			<g:at left="372" top="117">
+				<g:TextBox width="151px" height="16px" ui:field="customer"/>
+			</g:at>
+			<g:at left="10" top="155">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="用户号："/>
+			</g:at>
+			<g:at left="112" top="151">
+				<g:TextBox width="151px" height="16px" ui:field="customerOrder"/>
+			</g:at>
+			<g:at left="279" top="155">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="截止日期："/>
+			</g:at>
+			<g:at left="215" top="266">
+				<g:Button text="保存" ui:field="save"/>
+			</g:at>
+			<g:at left="313" top="266">
+				<g:Button ui:field="cancel">取消</g:Button>
+			</g:at>
+			<g:at left="382" top="152">
+				<p1:DateBox ui:field="deadline" width="141px" height="15px"/>
+			</g:at>
+			<g:at left="10" top="24">
+				<g:Label text="业务工单信息 --" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="10" top="87">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="业务类型："/>
+			</g:at>
+			<g:at left="112" top="83">
+				<g:TextBox width="151px" height="16px" ui:field="businessType"/>
+			</g:at>
+			<g:at left="279" top="87">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="业务编号："/>
+			</g:at>
+			<g:at left="372" top="83">
+				<g:TextBox width="151px" height="16px" ui:field="businessNo"/>
+			</g:at>
+			<g:at left="10" top="193">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="A端设备："/>
+			</g:at>
+			<g:at left="112" top="189">
+				<g:TextBox width="151px" height="16px" ui:field="aDevice"/>
+			</g:at>
+			<g:at left="10" top="226">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="Z端设备："/>
+			</g:at>
+			<g:at left="273" top="189">
+				<g:Button width="28px" height="28px" ui:field="selectADevice">...</g:Button>
+			</g:at>
+			<g:at left="273" top="222">
+				<g:Button width="28px" height="28px" ui:field="selectZDevice">...</g:Button>
+			</g:at>
+			<g:at left="112" top="223">
+				<g:TextBox width="151px" height="16px" ui:field="zDevice"/>
+			</g:at>
+			<g:at left="347" top="234">
+				<g:CheckBox text="为该业务工单创建路由工单" ui:field="toCreateRouteWL"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

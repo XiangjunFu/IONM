@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-18 10:42:46 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.RouteCheckTask" table="RouteCheckTask" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="creator" type="string">
+            <column name="creator" />
+        </property>
+        <property name="createTime" type="timestamp">
+            <column name="createTime" length="16" />
+        </property>
+        <property name="round" type="java.lang.Integer">
+            <column name="round" />
+        </property>
+        <property name="lastTime" type="timestamp">
+            <column name="lastTime" length="16" />
+        </property>
+        <property name="lastCheckResult" type="string">
+            <column name="lastCheckResult" />
+        </property>
+        <property name="groupId" type="string">
+            <column name="groupId" />
+        </property>
+        <property name="workerId" type="string">
+            <column name="workerId" />
+        </property>
+        <property name="deviceCode" type="string">
+            <column name="deviceCode" />
+        </property>
+        <property name="deviceType" type="string">
+            <column name="deviceType" />
+        </property>
+        <property name="deviceName" type="string">
+            <column name="deviceName" />
+        </property>
+        <property name="status" type="java.lang.Short">
+            <column name="status" />
+        </property>
+        <property name="station" type="string">
+            <column name="station" />
+        </property>
+        <property name="hostroom" type="string">
+            <column name="hostroom" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,124 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.detail {
+			border: 1px solid #666;
+			background-color: white;
+		}
+		
+		.header {
+			background: #eee;
+			border-bottom: 1px solid #666;
+			padding: 0.5em;
+		}
+		
+		.headerItem {
+			margin-bottom: 0.5em;
+		}
+		
+		.body {
+			line-height: 150%;
+			padding: 20px 40px 20px 10px;
+			font-family: 'Times New Roman', Times, serif;
+		}
+	</ui:style>
+
+	<g:DockLayoutPanel unit='EM' styleName='{style.detail}'>
+		<g:north size='6.1'>
+			<g:HTMLPanel styleName='{style.header}' width="100%">
+				<g:AbsolutePanel height="66px" width="995px">
+					<g:at left="10" top="10">
+						<g:Label text="工单编号："/>
+					</g:at>
+					<g:at left="10" top="41">
+						<g:Label text="工单名称："/>
+					</g:at>
+					<g:at left="81" top="10">
+						<g:HTML wordWrap="true" ui:field="workListCode"></g:HTML>
+					</g:at>
+					<g:at left="81" top="41">
+						<g:HTML wordWrap="true" ui:field="workListName"/>
+					</g:at>
+					<g:at left="607" top="13">
+						<g:Button text="指派施工人员" ui:field="assignTask">指派施工人员</g:Button>
+					</g:at>
+				</g:AbsolutePanel>
+			</g:HTMLPanel>
+		</g:north>
+
+		<g:center>
+			<g:ScrollPanel>
+				<g:AbsolutePanel width="100%" height="140px">
+					<g:at left="15" top="10">
+						<g:Label text="局站名称："/>
+					</g:at>
+					<g:at left="224" top="10">
+						<g:Label text="机房名称：" />
+					</g:at>
+					<g:at left="15" top="40">
+						<g:Label text="设备名称："/>
+					</g:at>
+					<g:at left="459" top="10">
+						<g:Label text="设备类型："/>
+					</g:at>
+					<g:at left="674" top="10">
+						<g:Label text="设备编码："/>
+					</g:at>
+					<g:at left="674" top="40">
+						<g:Label text="施工班组："/>
+					</g:at>
+					<g:at left="465" top="40">
+						<g:Label text="施工人员："/>
+					</g:at>
+					<g:at left="224" top="72">
+						<g:Label text="创建时间："/>
+					</g:at>
+					<g:at left="15" top="72">
+						<g:Label text="完成时间："/>
+					</g:at>
+					<g:at left="224" top="40">
+						<g:Label text="施工状态："/>
+					</g:at>
+					<g:at left="15" top="102">
+						<g:Label text="施工结果："/>
+					</g:at>
+					<g:at left="86" top="10">
+						<g:HTML wordWrap="true" ui:field="stationCode"/>
+					</g:at>
+					<g:at left="295" top="10">
+						<g:HTML wordWrap="true" ui:field="hostRoomCode"/>
+					</g:at>
+					<g:at left="530" top="10">
+						<g:HTML wordWrap="true" ui:field="deviceType"/>
+					</g:at>
+					<g:at left="745" top="10">
+						<g:HTML wordWrap="true" ui:field="deviceCode"/>
+					</g:at>
+					<g:at left="86" top="40">
+						<g:HTML wordWrap="true" ui:field="deviceName"/>
+					</g:at>
+					<g:at left="295" top="40">
+						<g:HTML wordWrap="true" ui:field="status"/>
+					</g:at>
+					<g:at left="536" top="40">
+						<g:HTML wordWrap="true" ui:field="worker"/>
+					</g:at>
+					<g:at left="745" top="40">
+						<g:HTML wordWrap="true" ui:field="workgroup"/>
+					</g:at>
+					<g:at left="295" top="72">
+						<g:HTML wordWrap="true" ui:field="createTime"/>
+					</g:at>
+					<g:at left="86" top="72">
+						<g:HTML wordWrap="true" ui:field="finishedTime"/>
+					</g:at>
+					<g:at left="86" top="102">
+						<g:HTML wordWrap="true" ui:field="result"/>
+					</g:at>
+				</g:AbsolutePanel>
+			</g:ScrollPanel>
+		</g:center>
+	</g:DockLayoutPanel>
+
+</ui:UiBinder>

@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="487px" height="254px">
+		<g:AbsolutePanel height="254px" width="487px">
+			<g:at left="35" top="147">
+				<g:Label text="起始端子：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="267" top="147">
+				<g:Label text="起始光纤：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="129" top="216">
+				<g:Button width="75px" height="28px" ui:field="ok">确  定</g:Button>
+			</g:at>
+			<g:at left="292" top="216">
+				<g:Button width="75px" height="28px" text="取  消" ui:field="cancel">确 定</g:Button>
+			</g:at>
+			<g:at left="127" top="142">
+				<g:IntegerBox width="96px" height="25px" ui:field="startPort"/>
+			</g:at>
+			<g:at left="366" top="142">
+				<g:IntegerBox width="93px" height="25px" ui:field="startFiber"/>
+			</g:at>
+			<g:at left="25" top="79">
+				<g:Label width="104px" height="24px" styleName="labelfont" text="板卡选择："/>
+			</g:at>
+			<g:at left="261" top="79">
+				<g:Label width="83px" height="24px" styleName="labelfont" text="光缆段："/>
+			</g:at>
+			<g:at left="118" top="79">
+				<g:ListBox width="121px" height="20px" ui:field="board"/>
+			</g:at>
+			<g:at left="340" top="79">
+				<g:ListBox width="123px" height="20px" ui:field="cableSpan"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

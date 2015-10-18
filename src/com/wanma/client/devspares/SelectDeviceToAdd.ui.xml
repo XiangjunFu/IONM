@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="200px" width="400px">
+			<g:at left="27" top="60">
+				<g:Label text="请选择设备：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="163" top="60">
+				<g:ListBox width="169px" height="42px" ui:field="selectedDevice"/>
+			</g:at>
+			<g:at left="94" top="130">
+				<g:Button width="92px" height="28px" ui:field="submit">确   定</g:Button>
+			</g:at>
+			<g:at left="237" top="130">
+				<g:Button width="92px" height="28px" ui:field="cancel">取  消</g:Button>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

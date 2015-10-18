@@ -1,0 +1,101 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="560px" height="338px">
+		<g:AbsolutePanel height="338px" width="560px">
+			<g:at left="10" top="27">
+				<g:Label text="设备类型：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="218" top="27">
+				<g:Label text="设备名称编号：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="112" top="27">
+				<g:ListBox width="96px" height="20px" ui:field="deviceType"/>
+			</g:at>
+			<g:at left="364" top="27">
+				<g:ListBox width="152px" height="20px" ui:field="deviceNameCode"/>
+			</g:at>
+			<g:at left="10" top="98">
+				<g:Label text="工单名称：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="279" top="98">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="工单编码："/>
+			</g:at>
+			<g:at left="112" top="94">
+				<g:TextBox ui:field="workListName"/>
+			</g:at>
+			<g:at left="372" top="94">
+				<g:TextBox ui:field="workListCode"/>
+			</g:at>
+			<g:at left="10" top="166">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="设备类型："/>
+			</g:at>
+			<g:at left="112" top="162">
+				<g:TextBox width="151px" height="16px" ui:field="deviceType2"/>
+			</g:at>
+			<g:at left="279" top="166">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="设备编码："/>
+			</g:at>
+			<g:at left="372" top="162">
+				<g:TextBox width="151px" height="16px" ui:field="deviceCode"/>
+			</g:at>
+			<g:at left="10" top="200">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="设备名称："/>
+			</g:at>
+			<g:at left="112" top="196">
+				<g:TextBox width="151px" height="16px" ui:field="deviceName"/>
+			</g:at>
+			<g:at left="279" top="200">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="截止日期："/>
+			</g:at>
+			<g:at left="279" top="300">
+				<g:Button text="保存" ui:field="save"/>
+			</g:at>
+			<g:at left="377" top="300">
+				<g:Button ui:field="cancel">取消</g:Button>
+			</g:at>
+			<g:at left="382" top="197">
+				<p1:DateBox ui:field="deadline" width="141px" height="15px"/>
+			</g:at>
+			<g:at left="10" top="69">
+				<g:Label text="工单信息 --" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="10" top="132">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="局站名称："/>
+			</g:at>
+			<g:at left="112" top="128">
+				<g:TextBox width="151px" height="16px" ui:field="stationCode"/>
+			</g:at>
+			<g:at left="279" top="132">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="机房名称："/>
+			</g:at>
+			<g:at left="372" top="128">
+				<g:TextBox width="151px" height="16px" ui:field="hostRoomCode"/>
+			</g:at>
+			<g:at left="10" top="234">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="地址："/>
+			</g:at>
+			<g:at left="112" top="230">
+				<g:TextBox width="151px" height="16px" ui:field="address"/>
+			</g:at>
+			<g:at left="279" top="230">
+				<g:Label text="板卡类型：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="381" top="230">
+				<g:ListBox width="148px" height="20px" ui:field="boardType"/>
+			</g:at>
+			<g:at left="10" top="268">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="板卡序号："/>
+			</g:at>
+			<g:at left="112" top="264">
+				<g:TextBox width="151px" height="16px" ui:field="boardNum"/>
+			</g:at>
+			<g:at left="320" top="277">
+				<g:CheckBox text="加载/拆除(选中加载)" ui:field="opType"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

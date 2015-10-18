@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=wanmaodn</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">sa</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="current_session_context_class">thread</property>
+		<mapping resource="com/wanma/domain/UserOdn.hbm.xml" />
+		<mapping resource="com/wanma/domain/Station.hbm.xml" />
+		<mapping resource="com/wanma/domain/Cabinet.hbm.xml" />
+		<mapping resource="com/wanma/domain/Cable.hbm.xml" />
+		<mapping resource="com/wanma/domain/CableSpan.hbm.xml" />
+		<mapping resource="com/wanma/domain/ConfigTask.hbm.xml" />
+		<mapping resource="com/wanma/domain/District.hbm.xml" />
+		<mapping resource="com/wanma/domain/ExecuteOrder.hbm.xml" />
+		<mapping resource="com/wanma/domain/Fiber.hbm.xml" />
+		<mapping resource="com/wanma/domain/FiberLink.hbm.xml" />
+		<mapping resource="com/wanma/domain/FiberLinkAttribute.hbm.xml" />
+		<mapping resource="com/wanma/domain/Frame.hbm.xml" />
+		<mapping resource="com/wanma/domain/HostRoom.hbm.xml" />
+		<mapping resource="com/wanma/domain/Ifat.hbm.xml" />
+		<mapping resource="com/wanma/domain/Ifdt.hbm.xml" />
+		<mapping resource="com/wanma/domain/Iodf.hbm.xml" />
+		<mapping resource="com/wanma/domain/JobOrder.hbm.xml" />
+		<mapping resource="com/wanma/domain/JumperConnector.hbm.xml" />
+		<mapping resource="com/wanma/domain/Obd.hbm.xml" />
+		<mapping resource="com/wanma/domain/Port.hbm.xml" />
+		<mapping resource="com/wanma/domain/RouteCheckTask.hbm.xml" />
+		<mapping resource="com/wanma/domain/StationFiberLink.hbm.xml" />
+		<mapping resource="com/wanma/domain/TerminalUnit.hbm.xml" />
+		<mapping resource="com/wanma/domain/ToStationFiber.hbm.xml" />
+		<mapping resource="com/wanma/domain/WeldConnector.hbm.xml" />
+		<mapping resource="com/wanma/domain/WorkGroup.hbm.xml" />
+		<mapping resource="com/wanma/domain/DeviceCommonInfo.hbm.xml" />
+		<mapping resource="com/wanma/domain/AlarmLog.hbm.xml" />
+		<mapping resource="com/wanma/domain/BoardTask.hbm.xml" />
+		<mapping resource="com/wanma/domain/FrameTask.hbm.xml"/>
+	</session-factory>
+</hibernate-configuration>

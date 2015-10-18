@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.WeldConnector" table="WeldConnector" schema="dbo" catalog="wanmaodn">
+        <id name="weldConnectorId" type="int">
+            <column name="weldConnectorID" />
+            <generator class="native" />
+        </id>
+        <property name="meType" type="string">
+            <column name="meType" />
+        </property>
+        <property name="meCode" type="string">
+            <column name="meCode" not-null="true" unique="true" />
+        </property>
+        <property name="acableSectionCode" type="string">
+            <column name="aCableSectionCode" />
+        </property>
+        <property name="afiberNo" type="java.lang.Integer">
+            <column name="aFiberNo" />
+        </property>
+        <property name="zcableSectionCode" type="string">
+            <column name="zCableSectionCode" />
+        </property>
+        <property name="zfiberNo" type="java.lang.Integer">
+            <column name="zFiberNo" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+    </class>
+</hibernate-mapping>

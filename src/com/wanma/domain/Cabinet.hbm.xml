@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Cabinet" table="Cabinet" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="station" type="string">
+            <column name="station" />
+        </property>
+        <property name="hostRoom" type="string">
+            <column name="hostRoom" />
+        </property>
+        <property name="mpuSoftwareVersion" type="string">
+            <column name="mpuSoftwareVersion" />
+        </property>
+        <property name="mpuHardwareVersion" type="string">
+            <column name="mpuHardwareVersion" />
+        </property>
+        <property name="mpuSpecification" type="string">
+            <column name="mpuSpecification" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" />
+        </property>
+        <property name="latitude" type="java.lang.Double">
+            <column name="latitude" precision="53" scale="0" />
+        </property>
+        <property name="longtitude" type="java.lang.Double">
+            <column name="longtitude" precision="53" scale="0" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="manufacture" type="string">
+            <column name="manufacture" />
+        </property>
+        <property name="cabinetId" type="int">
+            <column name="cabinetId" not-null="true" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

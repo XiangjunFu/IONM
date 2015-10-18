@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Station" table="Station" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="zipCode" type="string">
+            <column name="zipCode" />
+        </property>
+        <property name="districtName" type="string">
+            <column name="districtName" />
+        </property>
+        <property name="briefName" type="string">
+            <column name="briefName" />
+        </property>
+        <property name="pinyinName" type="string">
+            <column name="pinyinName" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="longitude" type="java.lang.Double">
+            <column name="longitude" precision="53" scale="0" />
+        </property>
+        <property name="latitude" type="java.lang.Double">
+            <column name="latitude" precision="53" scale="0" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" />
+        </property>
+        <property name="assemblyType" type="string">
+            <column name="assemblyType" />
+        </property>
+        <property name="assemblyNumber" type="string">
+            <column name="assemblyNumber" />
+        </property>
+        <property name="stationType" type="string">
+            <column name="stationType" />
+        </property>
+        <property name="physicalStatue" type="string">
+            <column name="physicalStatue" />
+        </property>
+        <property name="coverage" type="java.lang.Integer">
+            <column name="coverage" />
+        </property>
+        <property name="floors" type="java.lang.Integer">
+            <column name="floors" />
+        </property>
+        <property name="structureArea" type="java.lang.Integer">
+            <column name="structureArea" />
+        </property>
+        <property name="assetType" type="string">
+            <column name="assetType" />
+        </property>
+        <property name="createTime" type="timestamp">
+            <column name="createTime" length="16" />
+        </property>
+        <property name="reviseTime" type="timestamp">
+            <column name="reviseTime" length="16" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+    </class>
+</hibernate-mapping>

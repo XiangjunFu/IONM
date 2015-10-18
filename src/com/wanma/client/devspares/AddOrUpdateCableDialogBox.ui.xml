@@ -1,0 +1,80 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="369px" width="607px">
+			<g:at left="10" top="10">
+				<g:Label text="基础属性-"/>
+			</g:at>
+			<g:at left="10" top="199">
+				<g:Label width="56px" height="16px" text="光缆属性-"/>
+			</g:at>
+			<g:at left="42" top="43">
+				<g:Label text="名称："/>
+			</g:at>
+			<g:at left="121" top="31">
+				<g:TextBox width="161px" height="16px" ui:field="cableName"/>
+			</g:at>
+			<g:at left="121" top="84">
+				<g:TextBox width="161px" height="16px" ui:field="assemblyName"/>
+			</g:at>
+			<g:at left="42" top="96">
+				<g:Label width="65px" height="16px" text="拼装名称："/>
+			</g:at>
+			<g:at left="42" top="156">
+				<g:Label width="65px" height="16px" text="创建时间："/>
+			</g:at>
+			<g:at left="317" top="43">
+				<g:Label width="39px" height="16px" text="编码：" styleName="gwt-label"/>
+			</g:at>
+			<g:at left="396" top="31">
+				<g:TextBox width="161px" height="16px" ui:field="cableCode"/>
+			</g:at>
+			<g:at left="317" top="96">
+				<g:Label width="73px" height="16px" text="拼装编码："/>
+			</g:at>
+			<g:at left="396" top="84">
+				<g:TextBox width="161px" height="16px" ui:field="assemblyCode"/>
+			</g:at>
+			<g:at left="317" top="156">
+				<g:Label width="73px" height="16px" text="修改时间："/>
+			</g:at>
+			<g:at left="42" top="240">
+				<g:Label text="光缆级别："/>
+			</g:at>
+			<g:at left="121" top="236">
+				<g:ListBox width="167px" height="20px" ui:field="cableLevel"/>
+			</g:at>
+			<g:at left="436" top="236">
+				<g:ListBox width="131px" height="20px" ui:field="topology"/>
+			</g:at>
+			<g:at left="319" top="236">
+				<g:Label width="97px" height="16px" text="光缆拓扑结构："/>
+			</g:at>
+			<g:at left="42" top="287">
+				<g:Label text="备注："/>
+			</g:at>
+			<g:at left="121" top="275">
+				<g:TextBox width="436px" height="16px" ui:field="notes"/>
+			</g:at>
+			<g:at left="121" top="144">
+				<p1:DateBox width="161px" height="15px" ui:field="createTime"/>
+			</g:at>
+			<g:at left="396" top="144">
+				<p1:DateBox width="161px" height="15px" ui:field="reviseTime"/>
+			</g:at>
+			<g:at left="209" top="331">
+				<g:Button width="83px" height="28px" ui:field="save">保存</g:Button>
+			</g:at>
+			<g:at left="344" top="331">
+				<g:Button width="83px" height="28px" ui:field="cancel">取消</g:Button>
+			</g:at>
+			<g:at left="83" top="331">
+				<g:Button width="83px" height="28px" ui:field="update">更 新</g:Button>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

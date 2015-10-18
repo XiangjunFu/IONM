@@ -1,0 +1,59 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="537px" height="389px">
+		<g:AbsolutePanel height="389px" width="537px">
+			<g:at left="30" top="40">
+				<g:Label text="起始端子："/>
+			</g:at>
+			<g:at left="30" top="95">
+				<g:Label width="65px" height="16px" text="端子步进："/>
+			</g:at>
+			<g:at left="297" top="95">
+				<g:Label width="65px" height="16px" text="光纤步进："/>
+			</g:at>
+			<g:at left="297" top="40">
+				<g:Label width="65px" height="16px" text="起始光纤："/>
+			</g:at>
+			<g:at left="103" top="150">
+				<g:ListBox visibleItemCount="5" width="75px" height="220px" ui:field="portPreview"/>
+			</g:at>
+			<g:at left="368" top="150">
+				<g:ListBox width="65px" height="220px" visibleItemCount="5" ui:field="fiberPreview"/>
+			</g:at>
+			<g:at left="30" top="150">
+				<g:Label text="预览："/>
+			</g:at>
+			<g:at left="297" top="150">
+				<g:Label width="39px" height="16px" text="预览："/>
+			</g:at>
+			<g:at left="204" top="211">
+				<g:Label text="步数："/>
+			</g:at>
+			<g:at left="224" top="250">
+				<g:Button width="65px" ui:field="terminal" height="28px">成  端</g:Button>
+			</g:at>
+			<g:at left="230" top="299">
+				<g:Button width="59px" height="28px" ui:field="cancel">取  消</g:Button>
+			</g:at>
+			<g:at left="101" top="26">
+				<g:IntegerBox width="148px" height="30px" ui:field="startPort"/>
+			</g:at>
+			<g:at left="101" top="83">
+				<g:IntegerBox width="148px" height="30px" ui:field="portStep"/>
+			</g:at>
+			<g:at left="368" top="26">
+				<g:IntegerBox width="148px" height="30px" ui:field="startFiber"/>
+			</g:at>
+			<g:at left="368" top="83">
+				<g:IntegerBox width="148px" height="30px" ui:field="fiberStep"/>
+			</g:at>
+			<g:at left="249" top="196">
+				<g:IntegerBox width="47px" height="30px" ui:field="step"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

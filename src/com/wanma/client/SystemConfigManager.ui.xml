@@ -1,0 +1,192 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:page="urn:import:com.wanma.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:DockLayoutPanel unit="EM" styleName="empty">
+		<g:center>
+				<g:ScrollPanel styleName="empty">
+					<g:AbsolutePanel height="793px" width="1211px" styleName="toppanel">
+						<g:at left="10" top="0">
+							<g:CaptionPanel width="607px" height="128px"
+								captionText="工单设置">
+								<g:AbsolutePanel width="620px" height="124px">
+									<g:at left="0" top="6">
+										<g:Label text="施工工单拆分方式：" />
+									</g:at>
+									<g:at left="0" top="37">
+										<g:Label text="工单默认期望完成期限(1~360)：" />
+									</g:at>
+									<g:at left="0" top="69">
+										<g:Label text="有源设备是否在线施工：" />
+									</g:at>
+									<g:at left="0" top="95">
+										<g:Label text="在线施工亮灯指导模式：" />
+									</g:at>
+									<g:at left="231" top="0">
+										<g:ListBox width="99px" height="20px" />
+									</g:at>
+									<g:at left="231" top="66">
+										<g:RadioButton name="new name" text="是" />
+									</g:at>
+									<g:at left="300" top="66">
+										<g:RadioButton name="new name" text="否" />
+									</g:at>
+									<g:at left="231" top="91">
+										<g:ListBox width="95px" height="20px" />
+									</g:at>
+									<g:at left="231" top="28">
+										<g:TextBox />
+									</g:at>
+								</g:AbsolutePanel>
+							</g:CaptionPanel>
+						</g:at>
+						<g:at left="10" top="150">
+							<g:CaptionPanel width="607px" height="106px"
+								captionText="告警设置">
+								<g:AbsolutePanel width="617px" height="102px">
+									<g:at left="0" top="0">
+										<g:Label text="是否产生工单改纤告警：" />
+									</g:at>
+									<g:at left="0" top="22">
+										<g:Label text="是否产生工单未完工告警：" />
+									</g:at>
+									<g:at left="267" top="0">
+										<g:RadioButton name="new name" text="是" />
+									</g:at>
+									<g:at left="330" top="0">
+										<g:RadioButton name="new name" text="否" />
+									</g:at>
+									<g:at left="267" top="22">
+										<g:RadioButton name="new name" width="34px"
+											height="19px" text="是" />
+									</g:at>
+									<g:at left="330" top="22">
+										<g:RadioButton name="new name" width="34px"
+											height="19px" text="否" />
+									</g:at>
+									<g:at left="0" top="49">
+										<g:Label text="虚拟光缆纤芯使用率告警门限(%)(1-100)：" />
+									</g:at>
+									<g:at left="0" top="76">
+										<g:Label text="光缆纤芯使用率告警门限(%)(1-100)：" />
+									</g:at>
+									<g:at left="267" top="44">
+										<g:ListBox width="93px" height="20px" />
+									</g:at>
+									<g:at left="267" top="71">
+										<g:ListBox width="97px" height="20px" />
+									</g:at>
+								</g:AbsolutePanel>
+							</g:CaptionPanel>
+						</g:at>
+						<g:at left="10" top="278">
+							<g:CaptionPanel width="607px" height="242px"
+								captionText="用户管理设置">
+								<g:AbsolutePanel width="618px" height="238px">
+									<g:at left="0" top="10">
+										<g:Label text="是否从OSS系统自动同步施工人员：" />
+									</g:at>
+									<g:at left="0" top="43">
+										<g:Label text="admin用户密码：" />
+									</g:at>
+									<g:at left="0" top="80">
+										<g:Label text="自动同步施工人员周期(1-24)：" />
+									</g:at>
+									<g:at left="0" top="112">
+										<g:Label text="是否修改施工人员默认密码：" />
+									</g:at>
+									<g:at left="0" top="144">
+										<g:Label text="施工人员默认密码（旧密码）：" />
+									</g:at>
+									<g:at left="0" top="176">
+										<g:Label text="施工人员默认密码（新密码）：" />
+									</g:at>
+									<g:at left="0" top="208">
+										<g:Label text="施工人员默认密码（确认密码）：" />
+									</g:at>
+									<g:at left="265" top="32">
+										<g:TextBox />
+									</g:at>
+									<g:at left="265" top="7">
+										<g:RadioButton name="new name" text="是" />
+									</g:at>
+									<g:at left="345" top="7">
+										<g:RadioButton name="new name" text="否" />
+									</g:at>
+									<g:at left="265" top="70">
+										<g:TextBox />
+									</g:at>
+									<g:at left="265" top="109">
+										<g:RadioButton name="new name" text="是" />
+									</g:at>
+									<g:at left="345" top="109">
+										<g:RadioButton name="new name" text="否" />
+									</g:at>
+									<g:at left="265" top="134">
+										<g:PasswordTextBox />
+									</g:at>
+									<g:at left="265" top="171">
+										<g:PasswordTextBox />
+									</g:at>
+									<g:at left="265" top="206">
+										<g:PasswordTextBox />
+									</g:at>
+								</g:AbsolutePanel>
+							</g:CaptionPanel>
+						</g:at>
+						<g:at left="10" top="542">
+							<g:CaptionPanel width="607px" height="166px"
+								captionText="设备设置">
+								<g:AbsolutePanel width="618px" height="162px">
+									<g:at left="0" top="7">
+										<g:Label text="自动同步设备起始时间(时)(0-23)：" width="210" height="23" />
+									</g:at>
+									<g:at left="0" top="43">
+										<g:Label width="210" height="23" text="自动同步设备终止时间(时)(0-23)：" />
+									</g:at>
+									<g:at left="0" top="80">
+										<g:Label width="210" height="23" text="设备日志定时同步时间(时)(0-23)：" />
+									</g:at>
+									<g:at left="0" top="112">
+										<g:Label width="178px" height="16px" text="设备同步超时时间(秒)(1-600)：" />
+									</g:at>
+									<g:at left="0" top="145">
+										<g:Label width="210px" height="15px" text="资管系统定时同步周期(小时,1-23)："
+											styleName="gwt-label" />
+									</g:at>
+									<g:at left="274" top="0">
+										<g:ListBox visibleItemCount="5" width="153px" height="23px" />
+									</g:at>
+									<g:at left="274" top="36">
+										<g:ListBox width="153px" height="23px"
+											visibleItemCount="5" />
+									</g:at>
+									<g:at left="274" top="73">
+										<g:ListBox width="153px" height="23px"
+											visibleItemCount="5" />
+									</g:at>
+									<g:at left="274" top="105">
+										<g:ListBox width="153px" height="23px"
+											visibleItemCount="5" />
+									</g:at>
+									<g:at left="274" top="137">
+										<g:ListBox width="153px" height="23px"
+											visibleItemCount="5" />
+									</g:at>
+								</g:AbsolutePanel>
+							</g:CaptionPanel>
+						</g:at>
+						<g:at left="352" top="730">
+							<g:Button>确定</g:Button>
+						</g:at>
+						<g:at left="468" top="730">
+							<g:Button ui:field="button">取消</g:Button>
+						</g:at>
+					</g:AbsolutePanel>
+				</g:ScrollPanel>
+		</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder> 

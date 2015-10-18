@@ -1,0 +1,110 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel width="568px" height="350px">
+			<g:at left="299" top="312">
+				<g:Button width="83px" height="28px" ui:field="save">保  存</g:Button>
+			</g:at>
+			<g:at left="439" top="312">
+				<g:Button text="取  消" width="83px" height="28px" ui:field="cancel"/>
+			</g:at>
+			<g:at left="26" top="25">
+				<g:Label text="名称："/>
+			</g:at>
+			<g:at left="106" top="10">
+				<g:TextBox width="151px" height="22px" ui:field="iodfName"/>
+			</g:at>
+			<g:at left="298" top="25">
+				<g:Label text="编码："/>
+			</g:at>
+			<g:at left="386" top="10">
+				<g:TextBox width="151px" height="22px" ui:field="iodfCode"/>
+			</g:at>
+			<g:at left="26" top="65">
+				<g:Label width="74px" height="16px" text="拼装类型："/>
+			</g:at>
+			<g:at left="106" top="50">
+				<g:TextBox width="151px" height="22px" ui:field="assemblyType"/>
+			</g:at>
+			<g:at left="298" top="65">
+				<g:Label width="83px" height="16px" text="拼装编码："/>
+			</g:at>
+			<g:at left="386" top="50">
+				<g:TextBox width="151px" height="22px" ui:field="assemblyCode"/>
+			</g:at>
+			<g:at left="26" top="105">
+				<g:Label width="66px" height="16px" text="建设状态："/>
+			</g:at>
+			<g:at left="26" top="145">
+				<g:Label width="74px" height="16px" text="局站编码："/>
+			</g:at>
+			<g:at left="298" top="105">
+				<g:Label width="74px" height="16px" text="设施状态："/>
+			</g:at>
+			<g:at left="298" top="145">
+				<g:Label width="83px" height="16px" text="机房编码："/>
+			</g:at>
+			<g:at left="26" top="188">
+				<g:Label width="66px" height="16px" text="厂商名称："/>
+			</g:at>
+			<g:at left="26" top="228">
+				<g:Label width="74px" height="16px" text="安装地址："/>
+			</g:at>
+			<g:at left="298" top="188">
+				<g:Label width="39px" height="16px" text="型号："/>
+			</g:at>
+			<g:at left="298" top="228">
+				<g:Label width="74px" height="16px" text="责任人："/>
+			</g:at>
+			<g:at left="106" top="213">
+				<g:TextBox width="151px" height="22px" ui:field="installedAddress"/>
+			</g:at>
+			<g:at left="106" top="173">
+				<g:TextBox width="151px" height="22px" ui:field="manufacturer"/>
+			</g:at>
+			<g:at left="386" top="173">
+				<g:TextBox width="151px" height="22px" ui:field="type"/>
+			</g:at>
+			<g:at left="386" top="213">
+				<g:TextBox width="151px" height="22px" ui:field="dutyPerson"/>
+			</g:at>
+			<g:at left="106" top="97">
+				<g:ListBox width="157px" height="20px" ui:field="structStatus"/>
+			</g:at>
+			<g:at left="386" top="97">
+				<g:ListBox width="157px" height="20px" ui:field="phyStatus"/>
+			</g:at>
+			<g:at left="106" top="137">
+				<g:ListBox width="157px" height="20px" ui:field="station"/>
+			</g:at>
+			<g:at left="386" top="137">
+				<g:ListBox width="157px" height="20px" ui:field="hostRoom"/>
+			</g:at>
+			<g:at left="128" top="324">
+				<g:CheckBox text="现在去进行设备配置" ui:field="toConfig"/>
+			</g:at>
+			<g:at left="26" top="263">
+				<g:Label text="X坐标："/>
+			</g:at>
+			<g:at left="299" top="263">
+				<g:Label text="Y坐标："/>
+			</g:at>
+			<g:at left="106" top="260">
+				<g:IntegerBox ui:field="xPosition"/>
+			</g:at>
+			<g:at left="386" top="263">
+				<g:IntegerBox ui:field="yPosition"/>
+			</g:at>
+			<g:at left="26" top="293">
+				<g:Label text="是否光设备："/>
+			</g:at>
+			<g:at left="106" top="285">
+				<g:ListBox width="157px" height="20px" ui:field="isIntegrate"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

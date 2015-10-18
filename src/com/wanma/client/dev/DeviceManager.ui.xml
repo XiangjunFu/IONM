@@ -1,0 +1,22 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:p1="urn:import:com.google.gwt.user.cellview.client"
+	xmlns:page="urn:import:com.wanma.client.dev">
+	<ui:style>
+		
+	</ui:style>
+	<g:DockLayoutPanel unit="EM" styleName="toppanel">
+		<g:center>
+			<g:SplitLayoutPanel styleName="toppanel">
+				<g:west size="200.0">
+					<page:DeviceSourceLeftPanel ui:field="deviceSourceLeftPanel" />
+				</g:west>
+				<g:center>
+					<page:DeviceManagerTable ui:field="deviceManagerTable"
+						width="900" />
+				</g:center>
+			</g:SplitLayoutPanel>
+		</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder>

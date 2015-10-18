@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="450px" height="239px">
+		<g:AbsolutePanel height="239px" width="450px">
+			<g:at left="63" top="22">
+				<g:Label text="施工组：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="149" top="22">
+				<g:ListBox width="140px" height="20px" ui:field="group"/>
+			</g:at>
+			<g:at left="43" top="60">
+				<g:Label text="施工人员：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="149" top="54">
+				<g:ListBox visibleItemCount="5" width="136px" height="125px" ui:field="user"/>
+			</g:at>
+			<g:at left="95" top="201">
+				<g:Button width="66px" height="28px" ui:field="assign">指  派</g:Button>
+			</g:at>
+			<g:at left="226" top="201">
+				<g:Button width="66px" height="28px" text="取 消" ui:field="cancel">取消</g:Button>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

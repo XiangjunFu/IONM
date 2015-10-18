@@ -1,0 +1,74 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="600px" height="420px">
+		<g:AbsolutePanel height="420px" width="743px">
+			<g:at left="22" top="10">
+				<g:Label text="业务工单信息--" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="22" top="35">
+				<g:Label text="A设备:" styleName="labelfont"/>
+			</g:at>
+			<g:at left="305" top="35">
+				<g:Label text="Z设备:" styleName="labelfont"/>
+			</g:at>
+			<g:at left="89" top="35">
+				<g:HTML wordWrap="true" width="210px" height="24px" ui:field="bWorkListAName">A设备信息</g:HTML>
+			</g:at>
+			<g:at left="363" top="35">
+				<g:HTML wordWrap="true" width="227px" height="24px" ui:field="bworkListZName">Z设备信息</g:HTML>
+			</g:at>
+			<g:at left="22" top="65">
+				<g:Label text="光路由工单创建--" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="22" top="94">
+				<g:Label text="路由工单A设备：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="22" top="124">
+				<g:Label text="路由工单Z设备：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="459" top="104">
+				<g:Button text="预添加" ui:field="preAdd">预添加</g:Button>
+			</g:at>
+			<g:at left="22" top="190">
+				<g:ListBox visibleItemCount="5" width="341px" height="183px" ui:field="previewA"/>
+			</g:at>
+			<g:at left="380" top="190">
+				<g:ListBox visibleItemCount="5" width="341px" height="179px" ui:field="previewZ"/>
+			</g:at>
+			<g:at left="187" top="382">
+				<g:Button ui:field="done">完成添加路由工单</g:Button>
+			</g:at>
+			<g:at left="347" top="382">
+				<g:Button ui:field="cancel">取消添加路由工单</g:Button>
+			</g:at>
+			<g:at left="22" top="165">
+				<g:Label text="路由工单预览--" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="168" top="90">
+				<g:TextBox width="217px" height="16px" ui:field="routeAName"/>
+			</g:at>
+			<g:at left="168" top="124">
+				<g:TextBox width="217px" height="16px" ui:field="routeZName"/>
+			</g:at>
+			<g:at left="401" top="90">
+				<g:Button ui:field="selectADevice">...</g:Button>
+			</g:at>
+			<g:at left="401" top="124">
+				<g:Button ui:field="selectZDevice">...</g:Button>
+			</g:at>
+			<g:at left="426" top="158">
+				<g:Button ui:field="remove">移除选中记录</g:Button>
+			</g:at>
+			<g:at left="531" top="158">
+				<g:Button ui:field="clear">清空</g:Button>
+			</g:at>
+			<g:at left="531" top="116">
+				<g:CheckBox text="跳纤或拆纤(选中为跳纤)" ui:field="type"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

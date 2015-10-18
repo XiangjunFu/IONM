@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-18 14:08:20 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Fiber" table="Fiber" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" not-null="true" />
+        </property>
+        <property name="parentCode" type="string">
+            <column name="parentCode" not-null="true" />
+        </property>
+        <property name="logicalNo" type="int">
+            <column name="logicalNo" not-null="true" />
+        </property>
+        <property name="fiberSque" type="java.lang.Integer">
+            <column name="fiberSque" />
+        </property>
+        <property name="length" type="java.lang.Integer">
+            <column name="length" />
+        </property>
+        <property name="ameType" type="string">
+            <column name="aMeType" />
+        </property>
+        <property name="zmeType" type="string">
+            <column name="zMeType" />
+        </property>
+        <property name="ameCode" type="string">
+            <column name="aMeCode" />
+        </property>
+        <property name="zmeCode" type="string">
+            <column name="zMeCode" />
+        </property>
+        <property name="acard" type="string">
+            <column name="aCard" />
+        </property>
+        <property name="zcard" type="string">
+            <column name="zCard" />
+        </property>
+        <property name="aportCode" type="string">
+            <column name="aPortCode" />
+        </property>
+        <property name="zportCode" type="string">
+            <column name="zPortCode" />
+        </property>
+        <property name="spectrum" type="string">
+            <column name="spectrum" />
+        </property>
+        <property name="serviceStatue" type="string">
+            <column name="serviceStatue" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+    </class>
+</hibernate-mapping>

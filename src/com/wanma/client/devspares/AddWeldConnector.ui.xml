@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="270px" width="650px">
+			<g:at left="10" top="158">
+				<g:Label text="A端光纤：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="338" top="158">
+				<g:Label text="Z端光纤：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="198" top="221">
+				<g:Button width="68px" height="28px" ui:field="weldbtn">熔  接</g:Button>
+			</g:at>
+			<g:at left="364" top="221">
+				<g:Button width="68px" height="28px" text="取  消" ui:field="cancel">熔 接</g:Button>
+			</g:at>
+			<g:at left="10" top="39">
+				<g:Label text="设备类型：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="122" top="39">
+				<g:TextBox ui:field="meType"/>
+			</g:at>
+			<g:at left="320" top="39">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="设备编码："/>
+			</g:at>
+			<g:at left="432" top="39">
+				<g:TextBox width="161px" height="16px" ui:field="meCode"/>
+			</g:at>
+			<g:at left="10" top="98">
+				<g:Label width="114px" height="24px" styleName="labelfont" text="A端光缆段："/>
+			</g:at>
+			<g:at left="338" top="98">
+				<g:Label width="119px" height="24px" styleName="labelfont" text="Z端光缆段："/>
+			</g:at>
+			<g:at left="123" top="94">
+				<g:TextBox ui:field="aCableSpan"/>
+			</g:at>
+			<g:at left="442" top="94">
+				<g:TextBox ui:field="zCableSpan"/>
+			</g:at>
+			<g:at left="122" top="154">
+				<g:TextBox ui:field="aFiber"/>
+			</g:at>
+			<g:at left="442" top="154">
+				<g:TextBox ui:field="zFiber"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

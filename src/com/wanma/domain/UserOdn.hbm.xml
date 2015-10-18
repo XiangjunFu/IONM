@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.UserOdn" table="userODN" schema="dbo" catalog="wanmaodn">
+        <id name="userName" type="string">
+            <column name="userName" />
+            <generator class="assigned" />
+        </id>
+        <property name="phoneNum" type="string">
+            <column name="phoneNum" />
+        </property>
+        <property name="realName" type="string">
+            <column name="realName" />
+        </property>
+        <property name="groupName" type="string">
+            <column name="groupName" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" not-null="true" />
+        </property>
+        <property name="userType" type="string">
+            <column name="userType" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" />
+        </property>
+        <property name="gengHao" type="string">
+            <column name="gengHao" />
+        </property>
+    </class>
+</hibernate-mapping>

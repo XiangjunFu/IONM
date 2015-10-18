@@ -1,0 +1,80 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="1100" height="600">
+		<g:AbsolutePanel width="660px" height="395px">
+			<g:at left="19" top="29">
+				<g:Label text="姓名：" height="20"/>
+			</g:at>
+			<g:at left="19" top="81">
+				<g:Label text="帐号：" height="20"/>
+			</g:at>
+			<g:at left="19" top="133">
+				<g:Label text="性别：" height="20"/>
+			</g:at>
+			<g:at left="19" top="187">
+				<g:Label text="地址："/>
+			</g:at>
+			<g:at left="19" top="237">
+				<g:Label text="短号："/>
+			</g:at>
+			<g:at left="19" top="291">
+				<g:Label text="描述："/>
+			</g:at>
+			<g:at left="340" top="29">
+				<g:Label text="生日："/>
+			</g:at>
+			<g:at left="340" top="81">
+				<g:Label text="电话："/>
+			</g:at>
+			<g:at left="340" top="133">
+				<g:Label text="手机："/>
+			</g:at>
+			<g:at left="340" top="187">
+				<g:Label text="施工班组："/>
+			</g:at>
+			<g:at left="340" top="237">
+				<g:Label text="电子邮箱："/>
+			</g:at>
+			<g:at left="120" top="21">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="120" top="74">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="121" top="180">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="120" top="233">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="120" top="291">
+				<g:TextArea width="170px" height="40px" enabled="false"/>
+			</g:at>
+			<g:at left="427" top="74">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="427" top="127">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="427" top="180">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="427" top="233">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="322" top="357">
+				<g:Button ui:field="button" text="关闭">关闭</g:Button>
+			</g:at>
+			<g:at left="427" top="21">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+			<g:at left="120" top="127">
+				<g:TextBox width="170px" height="20px" enabled="false"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

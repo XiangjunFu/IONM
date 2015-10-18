@@ -1,0 +1,100 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:HTMLPanel width="700" height="300" styleName="toppanel">
+		<g:FormPanel width="700" height="450">
+			<g:AbsolutePanel width="660px" height="450px" styleName="panel-border">
+				<g:at left="19" top="29">
+					<g:Label text="姓名：" height="20"/>
+				</g:at>
+				<g:at left="19" top="81">
+					<g:Label text="帐号：" height="20"/>
+				</g:at>
+				<g:at left="19" top="133">
+					<g:Label text="性别：" height="20"/>
+				</g:at>
+				<g:at left="19" top="187">
+					<g:Label text="地址："/>
+				</g:at>
+				<g:at left="19" top="237">
+					<g:Label text="短号："/>
+				</g:at>
+				<g:at left="19" top="291">
+					<g:Label text="描述："/>
+				</g:at>
+				<g:at left="340" top="29">
+					<g:Label text="生日："/>
+				</g:at>
+				<g:at left="340" top="81">
+					<g:Label text="电话："/>
+				</g:at>
+				<g:at left="340" top="133">
+					<g:Label text="手机："/>
+				</g:at>
+				<g:at left="340" top="187">
+					<g:Label text="施工班组："/>
+				</g:at>
+				<g:at left="340" top="237">
+					<g:Label text="电子邮箱："/>
+				</g:at>
+				<g:at left="120" top="21">
+					<g:TextBox width="170px" height="20px" ui:field="userName"/>
+				</g:at>
+				<g:at left="120" top="74">
+					<g:TextBox width="170px" height="20px" ui:field="userAccount"/>
+				</g:at>
+				<g:at left="121" top="180">
+					<g:TextBox width="170px" height="20px" ui:field="address"/>
+				</g:at>
+				<g:at left="120" top="233">
+					<g:TextBox width="170px" height="20px" ui:field="number"/>
+				</g:at>
+				<g:at left="120" top="291">
+					<g:TextArea width="170px" height="40px" ui:field="description"/>
+				</g:at>
+				<g:at left="427" top="74">
+					<g:TextBox width="170px" height="20px" ui:field="telephone"/>
+				</g:at>
+				<g:at left="427" top="127">
+					<g:TextBox width="170px" height="20px" ui:field="mobile"/>
+				</g:at>
+				<g:at left="427" top="233">
+					<g:TextBox width="170px" height="20px" ui:field="email"/>
+				</g:at>
+				<g:at left="427" top="21">
+					<p1:DateBox width="170px" height="20px" ui:field="birthday"/>
+				</g:at>
+				<g:at left="19" top="378">
+					<g:Label text="密码："/>
+				</g:at>
+				<g:at left="120" top="366">
+					<g:PasswordTextBox width="170px" height="20px" ui:field="password"/>
+				</g:at>
+				<g:at left="340" top="378">
+					<g:Label text="确认密码："/>
+				</g:at>
+				<g:at left="275" top="412">
+					<g:Button ui:field="btn">确定</g:Button>
+				</g:at>
+				<g:at left="358" top="412">
+					<g:Button ui:field="cancel">取消</g:Button>
+				</g:at>
+				<g:at left="427" top="366">
+					<g:PasswordTextBox width="170px" height="20px" ui:field="confirmPassword"/>
+				</g:at>
+				<g:at left="120" top="133">
+					<g:ListBox width="180px" height="34px" ui:field="sex">
+					</g:ListBox>
+				</g:at>
+				<g:at left="427" top="187">
+					<g:ListBox width="180px" height="34px" ui:field="groupName"/>
+				</g:at>
+			</g:AbsolutePanel>
+		</g:FormPanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

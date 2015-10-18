@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-5 21:53:08 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Obd" table="OBD" schema="dbo" catalog="wanmaodn">
+        <id name="obdId" type="int">
+            <column name="obdId" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="code" type="string">
+            <column name="code" not-null="true" />
+        </property>
+        <property name="parentType" type="string">
+            <column name="parentType" />
+        </property>
+        <property name="splitRatio" type="java.lang.Float">
+            <column name="splitRatio" precision="24" scale="0" />
+        </property>
+        <property name="splitLevel" type="string">
+            <column name="splitLevel" />
+        </property>
+        <property name="parentCode" type="string">
+            <column name="parentCode" />
+        </property>
+        <property name="hostCode" type="string">
+            <column name="hostCode" />
+        </property>
+        <property name="stationCode" type="string">
+            <column name="stationCode" />
+        </property>
+        <property name="slotNo" type="java.lang.Integer">
+            <column name="slotNo" />
+        </property>
+        <property name="inPortLocation" type="string">
+            <column name="inPortLocation" />
+        </property>
+        <property name="stationName" type="string">
+            <column name="stationName" />
+        </property>
+        <property name="frameNo" type="java.lang.Integer">
+            <column name="frameNo" />
+        </property>
+        <property name="obdSeq" type="java.lang.Integer">
+            <column name="obdSeq" />
+        </property>
+        <property name="manufacurer" type="string">
+            <column name="manufacurer" />
+        </property>
+        <property name="physicalStatue" type="string">
+            <column name="physicalStatue" />
+        </property>
+        <property name="importOs" type="string">
+            <column name="importOs" />
+        </property>
+        <property name="xpostion" type="java.lang.Integer">
+            <column name="xPostion" />
+        </property>
+        <property name="ypostion" type="java.lang.Integer">
+            <column name="yPostion" />
+        </property>
+        <property name="longitude" type="java.lang.Double">
+            <column name="longitude" precision="53" scale="0" />
+        </property>
+        <property name="latitude" type="java.lang.Double">
+            <column name="latitude" precision="53" scale="0" />
+        </property>
+        <property name="wanmaIodn" type="java.lang.Boolean">
+            <column name="wanmaIodn" />
+        </property>
+        <property name="dutyPerson" type="string">
+            <column name="dutyPerson" />
+        </property>
+        <property name="oid" type="string">
+            <column name="OID" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" />
+        </property>
+    </class>
+</hibernate-mapping>

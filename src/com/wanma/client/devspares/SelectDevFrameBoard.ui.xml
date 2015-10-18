@@ -1,0 +1,41 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="440px" height="277px">
+		<g:AbsolutePanel height="277px" width="440px">
+			<g:at left="90" top="236">
+				<g:Button ui:field="select">选  择</g:Button>
+			</g:at>
+			<g:at left="224" top="236">
+				<g:Button ui:field="cancel">取  消</g:Button>
+			</g:at>
+			<g:at left="21" top="18">
+				<g:Label text="区域选择：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="126" top="18">
+				<g:ListBox width="176px" height="20px" ui:field="district"/>
+			</g:at>
+			<g:at left="21" top="60">
+				<g:Label text="站点选择：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="126" top="60">
+				<g:ListBox width="176px" height="20px" ui:field="station"/>
+			</g:at>
+			<g:at left="21" top="104">
+				<g:Label text="机房选择：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="126" top="104">
+				<g:ListBox width="176px" height="20px" ui:field="hostroom"/>
+			</g:at>
+			<g:at left="21" top="146">
+				<g:Label text="设备选择：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="126" top="146">
+				<g:ListBox width="176px" height="20px" ui:field="device"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

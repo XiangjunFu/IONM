@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-24 13:31:04 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.DeviceCommonInfo" table="DeviceCommonInfo" schema="dbo" catalog="wanmaodn">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="native" />
+        </id>
+        <property name="deviceCode" type="string">
+            <column name="deviceCode" not-null="true" />
+        </property>
+        <property name="deviceName" type="string">
+            <column name="deviceName" not-null="true" />
+        </property>
+        <property name="deviceType" type="string">
+            <column name="deviceType" not-null="true" />
+        </property>
+        <property name="stationCode" type="string">
+            <column name="stationCode" />
+        </property>
+        <property name="stationName" type="string">
+            <column name="stationName" />
+        </property>
+        <property name="hostRoomCode" type="string">
+            <column name="hostRoomCode" />
+        </property>
+        <property name="hostRoomName" type="string">
+            <column name="hostRoomName" />
+        </property>
+        <property name="xposition" type="java.lang.Integer">
+            <column name="xPosition" />
+        </property>
+        <property name="yposition" type="java.lang.Integer">
+            <column name="yPosition" />
+        </property>
+    </class>
+</hibernate-mapping>

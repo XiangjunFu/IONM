@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.WorkGroup" table="workGroup" schema="dbo" catalog="wanmaodn">
+        <composite-id name="id" class="com.wanma.domain.WorkGroupId">
+            <key-property name="groupName" type="string">
+                <column name="groupName" />
+            </key-property>
+            <key-property name="ownerName" type="string">
+                <column name="ownerName" />
+            </key-property>
+        </composite-id>
+        <property name="groupLeader" type="string">
+            <column name="groupLeader" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-22 16:00:49 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.ExecuteOrder" table="ExecuteOrder" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="jobOderCode" type="string">
+            <column name="jobOderCode" />
+        </property>
+        <property name="station" type="string">
+            <column name="station" />
+        </property>
+        <property name="creator" type="string">
+            <column name="creator" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="groupName" type="string">
+            <column name="groupName" />
+        </property>
+        <property name="worker" type="string">
+            <column name="worker" />
+        </property>
+        <property name="isChange" type="java.lang.Boolean">
+            <column name="isChange" />
+        </property>
+        <property name="changeReason" type="string">
+            <column name="changeReason" />
+        </property>
+        <property name="isIodn" type="java.lang.Boolean">
+            <column name="isIodn" />
+        </property>
+        <property name="createTime" type="timestamp">
+            <column name="createTime" length="16" />
+        </property>
+        <property name="expectedFinishTime" type="timestamp">
+            <column name="expectedFinishTime" length="16" />
+        </property>
+        <property name="realFinishedTime" type="timestamp">
+            <column name="realFinishedTime" length="16" />
+        </property>
+        <property name="receivedTime" type="timestamp">
+            <column name="receivedTime" length="16" />
+        </property>
+        <property name="status" type="java.lang.Short">
+            <column name="status" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" />
+        </property>
+        <property name="ameType" type="string">
+            <column name="aMeType" />
+        </property>
+        <property name="ameCode" type="string">
+            <column name="aMeCode" />
+        </property>
+        <property name="aportCode" type="string">
+            <column name="aPortCode" />
+        </property>
+        <property name="zmeType" type="string">
+            <column name="zMeType" />
+        </property>
+        <property name="zmeCode" type="string">
+            <column name="zMeCode" />
+        </property>
+        <property name="zportCode" type="string">
+            <column name="zPortCode" />
+        </property>
+        <property name="acard" type="string">
+            <column name="aCard" />
+        </property>
+        <property name="zcard" type="string">
+            <column name="zCard" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" />
+        </property>
+        <property name="result" type="string">
+            <column name="result" />
+        </property>
+    </class>
+</hibernate-mapping>

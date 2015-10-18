@@ -1,0 +1,116 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="560px" height="403px">
+		<g:AbsolutePanel width="560px" height="430px">
+			<g:at left="408" top="392">
+				<g:Button width="71px" height="28px" ui:field="cancel">取  消</g:Button>
+			</g:at>
+			<g:at left="281" top="392">
+				<g:Button width="71px" height="28px" ui:field="save">保  存</g:Button>
+			</g:at>
+			<g:at left="20" top="22">
+				<g:Label text="名称："/>
+			</g:at>
+			<g:at left="101" top="10">
+				<g:TextBox width="151px" height="22px" ui:field="ifatName"/>
+			</g:at>
+			<g:at left="281" top="22">
+				<g:Label width="39px" height="16px" text="编码："/>
+			</g:at>
+			<g:at left="362" top="10">
+				<g:TextBox width="151px" height="22px" ui:field="ifatCode"/>
+			</g:at>
+			<g:at left="20" top="68">
+				<g:Label width="75px" height="16px" text="拼装类型："/>
+			</g:at>
+			<g:at left="101" top="56">
+				<g:TextBox width="151px" height="22px" ui:field="assemblyType"/>
+			</g:at>
+			<g:at left="281" top="68">
+				<g:Label width="75px" height="16px" text="拼装编码："/>
+			</g:at>
+			<g:at left="362" top="56">
+				<g:TextBox width="151px" height="22px" ui:field="assemblyCode"/>
+			</g:at>
+			<g:at left="20" top="108">
+				<g:Label width="75px" height="16px" text="局站编码："/>
+			</g:at>
+			<g:at left="20" top="154">
+				<g:Label width="71px" height="16px" text="厂商名称："/>
+			</g:at>
+			<g:at left="101" top="142">
+				<g:TextBox width="151px" height="22px" ui:field="manufacturer"/>
+			</g:at>
+			<g:at left="281" top="108">
+				<g:Label width="75px" height="16px" text="机房编码："/>
+			</g:at>
+			<g:at left="281" top="154">
+				<g:Label width="75px" height="16px" text="标称容量："/>
+			</g:at>
+			<g:at left="20" top="194">
+				<g:Label width="75px" height="16px" text="安装容量："/>
+			</g:at>
+			<g:at left="281" top="194">
+				<g:Label width="75px" height="16px" text="安装地址："/>
+			</g:at>
+			<g:at left="362" top="182">
+				<g:TextBox width="151px" height="22px" ui:field="insalledAddress"/>
+			</g:at>
+			<g:at left="281" top="240">
+				<g:Label width="75px" height="16px" text="业务状态："/>
+			</g:at>
+			<g:at left="101" top="228">
+				<g:TextBox width="151px" height="22px" ui:field="dutyPerson"/>
+			</g:at>
+			<g:at left="20" top="240">
+				<g:Label width="71px" height="16px" text="责任人："/>
+			</g:at>
+			<g:at left="20" top="280">
+				<g:Label width="75px" height="16px" text="物理状态："/>
+			</g:at>
+			<g:at left="281" top="280">
+				<g:Label width="71px" height="16px" text="是否I设备："/>
+			</g:at>
+			<g:at left="362" top="232">
+				<g:ListBox width="157px" height="20px" ui:field="serviceStatus"/>
+			</g:at>
+			<g:at left="101" top="278">
+				<g:ListBox width="157px" height="20px" ui:field="phyStatus"/>
+			</g:at>
+			<g:at left="362" top="142">
+				<g:IntegerBox width="157px" height="24px" ui:field="capacity"/>
+			</g:at>
+			<g:at left="101" top="185">
+				<g:IntegerBox width="157px" height="24px" ui:field="insalledCapacity"/>
+			</g:at>
+			<g:at left="101" top="104">
+				<g:ListBox width="157px" height="24px" ui:field="station"/>
+			</g:at>
+			<g:at left="362" top="104">
+				<g:ListBox width="157px" height="20px" ui:field="hostRoom"/>
+			</g:at>
+			<g:at left="362" top="348">
+				<g:CheckBox text="现在进行配置工单创建" ui:field="toConfig"/>
+			</g:at>
+			<g:at left="20" top="323">
+				<g:Label text="X坐标："/>
+			</g:at>
+			<g:at left="20" top="362">
+				<g:Label text="Y坐标："/>
+			</g:at>
+			<g:at left="101" top="320">
+				<g:IntegerBox ui:field="xPosition"/>
+			</g:at>
+			<g:at left="101" top="359">
+				<g:IntegerBox ui:field="yPosition"/>
+			</g:at>
+			<g:at left="362" top="272">
+				<g:ListBox width="157px" height="20px" ui:field="isIntegrate"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

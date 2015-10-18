@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="261px" width="678px">
+			<g:at left="31" top="135">
+				<g:Label text="A端端子名称：" styleName="labelfont" width="140px" height="24px"/>
+			</g:at>
+			<g:at left="366" top="142">
+				<g:Label text="Z端端子名称：" styleName="labelfont" width="140px" height="24px"/>
+			</g:at>
+			<g:at left="264" top="204">
+				<g:Button width="69px" height="28px" ui:field="jumpConn">跳  接</g:Button>
+			</g:at>
+			<g:at left="414" top="204">
+				<g:Button width="69px" height="28px" text="取  消" ui:field="cancel">取  消</g:Button>
+			</g:at>
+			<g:at left="172" top="135">
+				<g:TextBox ui:field="aPort" width="151px" height="16px"/>
+			</g:at>
+			<g:at left="507" top="138">
+				<g:TextBox ui:field="zPort" width="151px" height="16px"/>
+			</g:at>
+			<g:at left="31" top="88">
+				<g:Label width="141px" height="24px" styleName="labelfont" text="A端设备编码："/>
+			</g:at>
+			<g:at left="172" top="88">
+				<g:TextBox width="151px" height="16px" ui:field="aMeCode"/>
+			</g:at>
+			<g:at left="366" top="88">
+				<g:Label width="140px" height="24px" styleName="labelfont" text="Z端设备编码："/>
+			</g:at>
+			<g:at left="31" top="34">
+				<g:Label width="141px" height="24px" styleName="labelfont" text="A端设备类型："/>
+			</g:at>
+			<g:at left="172" top="34">
+				<g:TextBox width="151px" height="16px" ui:field="aMeType"/>
+			</g:at>
+			<g:at left="366" top="34">
+				<g:Label width="140px" height="24px" styleName="labelfont" text="Z端设备类型："/>
+			</g:at>
+			<g:at left="507" top="30">
+				<g:TextBox width="151px" height="16px" ui:field="zMeType"/>
+			</g:at>
+			<g:at left="507" top="84">
+				<g:TextBox width="151px" height="16px" ui:field="zMeCode"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

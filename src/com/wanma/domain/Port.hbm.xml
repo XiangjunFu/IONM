@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-25 15:23:59 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Port" table="Port" schema="dbo" catalog="wanmaodn">
+        <id name="portId" type="int">
+            <column name="portId" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="code" type="string">
+            <column name="code" not-null="true" />
+        </property>
+        <property name="meType" type="string">
+            <column name="meType" />
+        </property>
+        <property name="meCode" type="string">
+            <column name="meCode" />
+        </property>
+        <property name="portType" type="string">
+            <column name="portType" />
+        </property>
+        <property name="rowIndex" type="java.lang.Integer">
+            <column name="rowIndex" />
+        </property>
+        <property name="colIndex" type="java.lang.Integer">
+            <column name="colIndex" />
+        </property>
+        <property name="physicalStatue" type="string">
+            <column name="physicalStatue" />
+        </property>
+        <property name="serviceStatue" type="string">
+            <column name="serviceStatue" />
+        </property>
+        <property name="slotNo" type="java.lang.Integer">
+            <column name="slotNo" />
+        </property>
+        <property name="portNo" type="java.lang.Integer">
+            <column name="portNo" />
+        </property>
+        <property name="portSequence" type="java.lang.Integer">
+            <column name="portSequence" />
+        </property>
+        <property name="cellNo" type="java.lang.Integer">
+            <column name="cellNo" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+        <property name="parentCode" type="string">
+            <column name="parentCode" />
+        </property>
+        <property name="preServiceState" type="string">
+            <column name="preServiceState" />
+        </property>
+    </class>
+</hibernate-mapping>

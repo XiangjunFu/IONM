@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-14 9:43:22 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Frame" table="Frame" schema="dbo" catalog="wanmaodn">
+        <id name="frameId" type="int">
+            <column name="frameId" />
+            <generator class="native" />
+        </id>
+        <property name="code" type="string">
+            <column name="code" />
+        </property>
+        <property name="frameName" type="string">
+            <column name="frameName" />
+        </property>
+        <property name="hostCabinet" type="string">
+            <column name="hostCabinet" />
+        </property>
+        <property name="boardsCapacity" type="java.lang.Integer">
+            <column name="boardsCapacity" />
+        </property>
+        <property name="portsCapacity" type="java.lang.Integer">
+            <column name="portsCapacity" />
+        </property>
+        <property name="usedBoardsNumber" type="java.lang.Integer">
+            <column name="usedBoardsNumber" />
+        </property>
+        <property name="usedPortsNumber" type="java.lang.Integer">
+            <column name="usedPortsNumber" />
+        </property>
+        <property name="numberInCabinet" type="java.lang.Integer">
+            <column name="numberInCabinet" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" />
+        </property>
+    </class>
+</hibernate-mapping>

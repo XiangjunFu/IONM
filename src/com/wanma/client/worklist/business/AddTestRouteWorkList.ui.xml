@@ -1,0 +1,38 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="450px" height="196px">
+		<g:AbsolutePanel height="196px" width="450px">
+			<g:at left="27" top="41">
+				<g:Label text="A端口：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="27" top="94">
+				<g:Label text="Z端口：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="102" top="41">
+				<g:TextBox width="232px" height="16px" ui:field="aRoute"/>
+			</g:at>
+			<g:at left="105" top="94">
+				<g:TextBox width="229px" height="16px" ui:field="zRoute"/>
+			</g:at>
+			<g:at left="102" top="158">
+				<g:Button ui:field="save">生成路由工单</g:Button>
+			</g:at>
+			<g:at left="225" top="158">
+				<g:Button ui:field="cancel">取消生成工单</g:Button>
+			</g:at>
+			<g:at left="345" top="41">
+				<g:Button ui:field="selectA">...</g:Button>
+			</g:at>
+			<g:at left="345" top="94">
+				<g:Button ui:field="selectZ">...</g:Button>
+			</g:at>
+			<g:at left="27" top="136">
+				<g:CheckBox text="选中跳纤" ui:field="opType"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

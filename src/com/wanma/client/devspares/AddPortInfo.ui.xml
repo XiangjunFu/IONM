@@ -1,0 +1,104 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="617px" height="390px">
+		<g:AbsolutePanel height="390px" width="617px">
+			<g:at left="111" top="23">
+				<g:ListBox width="90px" height="20px" ui:field="meType"/>
+			</g:at>
+			<g:at left="10" top="23">
+				<g:Label text="设备类型：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="309" top="23">
+				<g:ListBox width="139px" height="20px" ui:field="meNameCode"/>
+			</g:at>
+			<g:at left="216" top="19">
+				<g:Label text="设备名称：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="10" top="76">
+				<g:Label text="端口信息 --" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="40" top="120">
+				<g:Label text="端口编码：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="454" top="19">
+				<g:Label text="板卡：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="520" top="19">
+				<g:ListBox width="83px" height="20px" ui:field="board"/>
+			</g:at>
+			<g:at left="146" top="120">
+				<g:TextBox ui:field="code"/>
+			</g:at>
+			<g:at left="313" top="120">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="端口名称："/>
+			</g:at>
+			<g:at left="419" top="116">
+				<g:TextBox width="161px" height="16px" ui:field="name"/>
+			</g:at>
+			<g:at left="40" top="154">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="端口类型："/>
+			</g:at>
+			<g:at left="313" top="154">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="机框号："/>
+			</g:at>
+			<g:at left="419" top="150">
+				<g:TextBox width="161px" height="16px" ui:field="cellNo"/>
+			</g:at>
+			<g:at left="10" top="188">
+				<g:Label width="130px" height="24px" styleName="labelfont" text="框内端口号："/>
+			</g:at>
+			<g:at left="146" top="188">
+				<g:TextBox width="151px" height="16px" ui:field="portSequence"/>
+			</g:at>
+			<g:at left="313" top="188">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="槽号："/>
+			</g:at>
+			<g:at left="419" top="184">
+				<g:TextBox width="161px" height="16px" ui:field="slotNo"/>
+			</g:at>
+			<g:at left="40" top="222">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="端口号："/>
+			</g:at>
+			<g:at left="146" top="222">
+				<g:TextBox width="151px" height="16px" ui:field="portNo"/>
+			</g:at>
+			<g:at left="313" top="222">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="所在行号："/>
+			</g:at>
+			<g:at left="419" top="218">
+				<g:TextBox width="161px" height="16px" ui:field="rowIndex"/>
+			</g:at>
+			<g:at left="40" top="256">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="所在列号："/>
+			</g:at>
+			<g:at left="40" top="290">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="业务状态："/>
+			</g:at>
+			<g:at left="146" top="256">
+				<g:TextBox width="151px" height="16px" ui:field="colIndex"/>
+			</g:at>
+			<g:at left="313" top="256">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="物理状态："/>
+			</g:at>
+			<g:at left="209" top="352">
+				<g:Button width="74px" height="28px" ui:field="save">保  存</g:Button>
+			</g:at>
+			<g:at left="320" top="352">
+				<g:Button width="74px" height="28px" text="取  消" ui:field="cancel">保 存</g:Button>
+			</g:at>
+			<g:at left="419" top="256">
+				<g:ListBox width="167px" height="20px" ui:field="physicalStatue"/>
+			</g:at>
+			<g:at left="146" top="290">
+				<g:ListBox width="157px" height="20px" ui:field="serviceStatue"/>
+			</g:at>
+			<g:at left="146" top="154">
+				<g:ListBox width="157px" height="20px" ui:field="type"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

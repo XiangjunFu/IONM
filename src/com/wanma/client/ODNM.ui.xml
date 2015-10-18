@@ -1,0 +1,35 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:page="urn:import:com.wanma.client" xmlns:o="urn:import:com.sun.org.apache.xpath.internal.operations">
+	<ui:style>
+		.loginPage{
+			background:#5685D7 top repeat-y;
+			margin: 0px;
+		}
+	</ui:style>
+	<g:HTMLPanel styleName="{style.loginPage}">
+		<g:AbsolutePanel height="514px" styleName="image-center" width="1117px">
+			<g:at left="272" top="154">
+				<g:Image width="766px" height="210px" url="wanma/background.jpg"/>
+			</g:at>
+			<g:at left="545" top="210">
+				<g:Label text="用户名："/>
+			</g:at>
+			<g:at left="615" top="194">
+				<g:TextBox ui:field="username" title="请输入用户名"/>
+			</g:at>
+			<g:at left="545" top="262">
+				<g:Label text="密  码："/>
+			</g:at>
+			<g:at left="618" top="247">
+				<g:PasswordTextBox ui:field="password" title="请输入密码"/>
+			</g:at>
+			<g:at left="602" top="301">
+				<g:Button text="登录" ui:field="login"/>
+			</g:at>
+			<g:at left="672" top="301">
+				<g:Button text="重置" ui:field="reset"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder>

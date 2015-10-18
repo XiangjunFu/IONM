@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.HostRoom" table="HostRoom" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" not-null="true" />
+        </property>
+        <property name="aliasName" type="string">
+            <column name="aliasName" />
+        </property>
+        <property name="briefName" type="string">
+            <column name="briefName" />
+        </property>
+        <property name="stationName" type="string">
+            <column name="stationName" />
+        </property>
+        <property name="hostType" type="string">
+            <column name="hostType" />
+        </property>
+        <property name="creatTime" type="timestamp">
+            <column name="creatTime" length="16" />
+        </property>
+        <property name="reviseTime" type="timestamp">
+            <column name="reviseTime" length="16" />
+        </property>
+        <property name="localOrremote" type="java.lang.Boolean">
+            <column name="localOrremote" />
+        </property>
+        <property name="floors" type="java.lang.Integer">
+            <column name="floors" />
+        </property>
+        <property name="length" type="java.lang.Integer">
+            <column name="length" />
+        </property>
+        <property name="width" type="java.lang.Integer">
+            <column name="width" />
+        </property>
+        <property name="highth" type="java.lang.Integer">
+            <column name="highth" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" />
+        </property>
+        <property name="latitute" type="java.lang.Double">
+            <column name="latitute" precision="53" scale="0" />
+        </property>
+        <property name="longitude" type="java.lang.Double">
+            <column name="longitude" precision="53" scale="0" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+    </class>
+</hibernate-mapping>

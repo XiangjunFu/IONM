@@ -1,0 +1,131 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.datepicker.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:AbsolutePanel height="490px" width="612px">
+			<g:at left="10" top="10">
+				<g:Label text="基本属性 - " styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="30" top="43">
+				<g:Label text="名称："/>
+			</g:at>
+			<g:at left="99" top="32">
+				<g:TextBox width="170" height="20" ui:field="name"/>
+			</g:at>
+			<g:at left="30" top="82">
+				<g:Label text="缩写："/>
+			</g:at>
+			<g:at left="99" top="70">
+				<g:TextBox width="170" height="20" ui:field="briefName"/>
+			</g:at>
+			<g:at left="30" top="121">
+				<g:Label text="拼装名称："/>
+			</g:at>
+			<g:at left="99" top="108">
+				<g:TextBox width="170" height="20" ui:field="assemblyType"/>
+			</g:at>
+			<g:at left="30" top="156">
+				<g:Label text="所属区域："/>
+			</g:at>
+			<g:at left="30" top="197">
+				<g:Label text="创建时间："/>
+			</g:at>
+			<g:at left="99" top="184">
+				<p1:DateBox width="170" height="20" ui:field="createDate"/>
+			</g:at>
+			<g:at left="404" top="184">
+				<p1:DateBox width="170" height="20" ui:field="updateDate"/>
+			</g:at>
+			<g:at left="335" top="197">
+				<g:Label width="65px" height="16px" text="修改时间："/>
+			</g:at>
+			<g:at left="335" top="156">
+				<g:Label width="65px" height="16px" text="区号："/>
+			</g:at>
+			<g:at left="404" top="146">
+				<g:TextBox width="170" height="20" ui:field="zipCode"/>
+			</g:at>
+			<g:at left="335" top="121">
+				<g:Label width="65px" height="16px" text="拼装编码："/>
+			</g:at>
+			<g:at left="404" top="108">
+				<g:TextBox width="170" height="20" ui:field="assemblyNumber"/>
+			</g:at>
+			<g:at left="335" top="82">
+				<g:Label width="39px" height="16px" text="拼音："/>
+			</g:at>
+			<g:at left="404" top="70">
+				<g:TextBox width="170" height="20" ui:field="namePinyin"/>
+			</g:at>
+			<g:at left="335" top="43">
+				<g:Label width="39px" height="16px" text="编码："/>
+			</g:at>
+			<g:at left="404" top="32">
+				<g:TextBox width="170" height="20" ui:field="code"/>
+			</g:at>
+			<g:at left="10" top="237">
+				<g:Label text="局站属性 -" styleName="biglabelfont"/>
+			</g:at>
+			<g:at left="30" top="273">
+				<g:Label text="覆盖面积："/>
+			</g:at>
+			<g:at left="99" top="262">
+				<g:TextBox width="170" height="20" ui:field="coverage"/>
+			</g:at>
+			<g:at left="335" top="273">
+				<g:Label text="建筑面积："/>
+			</g:at>
+			<g:at left="404" top="262">
+				<g:TextBox width="170" height="20" ui:field="structureArea"/>
+			</g:at>
+			<g:at left="30" top="310">
+				<g:Label text="长途/本地："/>
+			</g:at>
+			<g:at left="335" top="310">
+				<g:Label text="楼层面积："/>
+			</g:at>
+			<g:at left="404" top="300">
+				<g:TextBox width="170" height="20" ui:field="floorArea"/>
+			</g:at>
+			<g:at left="30" top="348">
+				<g:Label text="设施状态："/>
+			</g:at>
+			<g:at left="335" top="348">
+				<g:Label text="资产类别："/>
+			</g:at>
+			<g:at left="30" top="386">
+				<g:Label text="地址："/>
+			</g:at>
+			<g:at left="30" top="408">
+				<g:Label text="备注："/>
+			</g:at>
+			<g:at left="99" top="376">
+				<g:TextBox width="457px" height="16px" ui:field="address"/>
+			</g:at>
+			<g:at left="99" top="408">
+				<g:TextBox width="457px" height="16px" ui:field="notes"/>
+			</g:at>
+			<g:at left="197" top="442">
+				<g:Button width="76px" height="28px" ui:field="save">保存</g:Button>
+			</g:at>
+			<g:at left="291" top="442">
+				<g:Button width="76px" height="28px" ui:field="cancel">取消</g:Button>
+			</g:at>
+			<g:at left="99" top="306">
+				<g:ListBox width="161px" height="20px" ui:field="localOrRemote"/>
+			</g:at>
+			<g:at left="99" top="344">
+				<g:ListBox width="161px" height="20px" ui:field="status"/>
+			</g:at>
+			<g:at left="404" top="344">
+				<g:ListBox width="158px" height="20px" ui:field="assetType"/>
+			</g:at>
+			<g:at left="99" top="148">
+				<g:ListBox width="157px" height="25px" ui:field="region"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

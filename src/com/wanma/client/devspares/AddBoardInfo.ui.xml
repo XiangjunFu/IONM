@@ -1,0 +1,68 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="450px" height="290px">
+		<g:AbsolutePanel height="325px" width="450px">
+			<g:at left="27" top="14">
+				<g:Label text="请选择设备：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="144" top="10">
+				<g:TextBox width="209px" height="16px" ui:field="device"/>
+			</g:at>
+			<g:at left="364" top="10">
+				<g:Button ui:field="selectDevice">...</g:Button>
+			</g:at>
+			<g:at left="56" top="58">
+				<g:Label text="机框：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="144" top="58">
+				<g:ListBox width="248px" height="20px" ui:field="frame"/>
+			</g:at>
+			<g:at left="27" top="96">
+				<g:Label text="板卡名称：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="144" top="92">
+				<g:TextBox width="238px" height="16px" ui:field="boardName"/>
+			</g:at>
+			<g:at left="27" top="214">
+				<g:Label text="行数：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="221" top="214">
+				<g:Label text="列数：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="83" top="214">
+				<g:IntegerBox width="116px" height="15px" ui:field="rowNum"/>
+			</g:at>
+			<g:at left="287" top="214">
+				<g:IntegerBox width="116px" height="15px" ui:field="colNum"/>
+			</g:at>
+			<g:at left="212" top="287">
+				<g:Button width="77px" height="28px" ui:field="save">保  存</g:Button>
+			</g:at>
+			<g:at left="330" top="287">
+				<g:Button width="77px" height="28px" ui:field="cancel">取  消</g:Button>
+			</g:at>
+			<g:at left="27" top="130">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="板卡编码："/>
+			</g:at>
+			<g:at left="144" top="126">
+				<g:TextBox width="238px" height="16px" ui:field="boardCode"/>
+			</g:at>
+			<g:at left="27" top="171">
+				<g:Label text="板卡在设备中序号：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="202" top="171">
+				<g:TextBox ui:field="boardSeq"/>
+			</g:at>
+			<g:at left="27" top="254">
+				<g:Label text="板卡类型：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="125" top="254">
+				<g:ListBox width="128px" height="20px" ui:field="boardType"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

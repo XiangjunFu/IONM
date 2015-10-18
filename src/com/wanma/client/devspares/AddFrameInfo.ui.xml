@@ -1,0 +1,66 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="450px" height="250px">
+		<g:AbsolutePanel height="250px" width="450px">
+			<g:at left="26" top="39">
+				<g:Label text="请选择设备：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="143" top="35">
+				<g:TextBox width="209px" height="16px" ui:field="device"/>
+			</g:at>
+			<g:at left="363" top="35">
+				<g:Button ui:field="selectDevice">...</g:Button>
+			</g:at>
+			<g:at left="26" top="73">
+				<g:Label text="机框名称：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="143" top="69">
+				<g:TextBox width="238px" height="16px" ui:field="frameName"/>
+			</g:at>
+			<g:at left="26" top="137">
+				<g:Label text="板卡容量：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="220" top="137">
+				<g:Label text="端口容量：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="143" top="137">
+				<g:IntegerBox width="67px" height="20px" ui:field="boardNum"/>
+			</g:at>
+			<g:at left="320" top="137">
+				<g:IntegerBox width="67px" height="20px" ui:field="portNum"/>
+			</g:at>
+			<g:at left="206" top="206">
+				<g:Button width="77px" height="28px" ui:field="save">保  存</g:Button>
+			</g:at>
+			<g:at left="324" top="206">
+				<g:Button width="77px" height="28px" ui:field="cancel">取  消</g:Button>
+			</g:at>
+			<g:at left="0" top="0">
+				<g:AbsolutePanel width="450px" height="24px" styleName="dialogtopmenu">
+					<g:at left="10" top="0">
+						<g:Label text="添加机框信息..." styleName="biglabelfont" width="102px" height="24px"/>
+					</g:at>
+					<g:at left="426" top="0">
+						<g:Button width="24px" height="24px" ui:field="close">X</g:Button>
+					</g:at>
+				</g:AbsolutePanel>
+			</g:at>
+			<g:at left="26" top="107">
+				<g:Label width="100px" height="24px" styleName="labelfont" text="机框编码："/>
+			</g:at>
+			<g:at left="143" top="103">
+				<g:TextBox width="238px" height="16px" ui:field="frameCode"/>
+			</g:at>
+			<g:at left="26" top="167">
+				<g:Label text="机框序号：" styleName="labelfont"/>
+			</g:at>
+			<g:at left="145" top="167">
+				<g:IntegerBox width="148px" height="20px" ui:field="frameSeq"/>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

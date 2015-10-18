@@ -1,0 +1,24 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client"
+	xmlns:page="urn:import:com.wanma.client.devspares" xmlns:h="urn:import:com.gargoylesoftware.htmlunit">
+	<ui:style>
+		
+	</ui:style>
+	<g:DockLayoutPanel unit="EM" styleName="toppanel">
+		<g:center>
+			<g:SplitLayoutPanel styleName="toppanel">
+				<g:west size="200.0">
+					<page:SpaceResourceLeftPanel ui:field="spaceResourceLeftPanel" />
+				</g:west>
+				<g:north size="330.0">
+					<page:SpaceResourceManagerTable
+						ui:field="spaceResourceManagerTable"/>
+				</g:north>
+				<g:center>
+					<page:DeviceBoardDetail ui:field="deviceBoardDetail"/>
+				</g:center>
+			</g:SplitLayoutPanel>
+		</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder>

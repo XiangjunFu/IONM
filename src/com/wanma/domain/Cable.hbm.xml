@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-10-30 7:44:52 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.Cable" table="Cable" schema="dbo" catalog="wanmaodn">
+        <id name="code" type="string">
+            <column name="code" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="length" type="java.lang.Integer">
+            <column name="length" />
+        </property>
+        <property name="category" type="string">
+            <column name="category" />
+        </property>
+        <property name="notes" type="string">
+            <column name="notes" />
+        </property>
+        <property name="assemblyName" type="string">
+            <column name="assemblyName" />
+        </property>
+        <property name="assemblyNumber" type="string">
+            <column name="assemblyNumber" />
+        </property>
+        <property name="cableType" type="string">
+            <column name="cableType" />
+        </property>
+        <property name="topology" type="string">
+            <column name="topology" />
+        </property>
+        <property name="createTime" type="timestamp">
+            <column name="createTime" length="16" />
+        </property>
+        <property name="reviseTime" type="timestamp">
+            <column name="reviseTime" length="16" />
+        </property>
+        <property name="stationCode" type="string">
+            <column name="stationCode" />
+        </property>
+        <property name="phyStatue" type="string">
+            <column name="phyStatue" />
+        </property>
+        <property name="serviceStatue" type="string">
+            <column name="serviceStatue" />
+        </property>
+        <property name="importTag" type="string">
+            <column name="importTag" />
+        </property>
+    </class>
+</hibernate-mapping>

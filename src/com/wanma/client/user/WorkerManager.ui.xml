@@ -1,0 +1,20 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+	xmlns:page="urn:import:com.wanma.client.user">
+	<ui:style>
+		
+	</ui:style>
+	<g:DockLayoutPanel unit="EM" styleName="toppanel">
+		<g:center>
+			<g:SplitLayoutPanel  styleName="toppanel">
+				<g:west size="200.0">
+					<page:SystemLeftPanel ui:field="systemLeftPanel" />
+				</g:west>
+				<g:center>
+					<page:UserManagerTable ui:field="userManagerTable"/>
+				</g:center>
+			</g:SplitLayoutPanel>
+		</g:center>
+	</g:DockLayoutPanel>
+</ui:UiBinder> 

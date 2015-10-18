@@ -1,0 +1,101 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.google.gwt.user.cellview.client">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel width="800px" height="504px">
+		<g:AbsolutePanel width="800px" height="504px">
+			<g:at left="0" top="0">
+				<g:AbsolutePanel height="25px" width="800px" styleName="dialogtopmenu">
+							<g:at left="10" top="0">
+								<g:Label text="光缆信息..." styleName="biglabelfont" width="86px" height="25px"/>
+							</g:at>
+							<g:at left="777" top="0">
+								<g:Button width="23px" height="25px" ui:field="close">X</g:Button>
+							</g:at>
+						</g:AbsolutePanel>
+			</g:at>
+			<g:at left="0" top="24">
+				<g:StackLayoutPanel ui:field="stackLayoutPanel" width="800px" height="479px">
+					<g:stack>
+						<g:header size="25">光缆管理</g:header>
+						<g:AbsolutePanel width="800" height="404">
+							<g:at left="0" top="41">
+								<p1:CellTable width="800px" height="289px" ui:field="cableGrid"></p1:CellTable>
+							</g:at>
+							<g:at left="10" top="349">
+								<g:Button ui:field="addCable">增加</g:Button>
+							</g:at>
+							<g:at left="68" top="349">
+								<g:Button ui:field="deleteCable">删除</g:Button>
+							</g:at>
+							<g:at left="119" top="349">
+								<g:Button ui:field="updateCable">修改</g:Button>
+							</g:at>
+							<g:at left="176" top="349">
+								<g:Button>定位</g:Button>
+							</g:at>
+							<g:at left="231" top="349">
+								<g:Button>铺设</g:Button>
+							</g:at>
+							<g:at left="10" top="10">
+								<g:Label text="光缆名称："/>
+							</g:at>
+							<g:at left="73" top="7">
+								<g:TextBox width="135px" height="16px" ui:field="cableName"/>
+							</g:at>
+							<g:at left="252" top="10">
+								<g:Label text="光缆级别："/>
+							</g:at>
+							<g:at left="323" top="10">
+								<g:ListBox width="114px" height="20px" ui:field="cableLevel"/>
+							</g:at>
+							<g:at left="465" top="10">
+								<g:CheckBox text="模糊查询" width="91px" height="25px" ui:field="fuzzyQuery"/>
+							</g:at>
+							<g:at left="572" top="10">
+								<g:Button ui:field="query">查询</g:Button>
+							</g:at>
+						</g:AbsolutePanel>
+					</g:stack>
+					<g:stack>
+						<g:header size="25">光缆段管理</g:header>
+						<g:AbsolutePanel width="800" height="404">
+							<g:at left="0" top="36">
+								<p1:CellTable ui:field="fiberPartTable" width="798px" height="322px"/>
+							</g:at>
+							<g:at left="10" top="364">
+								<g:Button width="59px" height="28px" ui:field="addFiberPart">增加</g:Button>
+							</g:at>
+							<g:at left="93" top="364">
+								<g:Button width="59px" height="28px" ui:field="deleteFiberPart">删除</g:Button>
+							</g:at>
+							<g:at left="178" top="364">
+								<g:Button width="59px" height="28px" text="修改" ui:field="updateFiberPart">修改</g:Button>
+							</g:at>
+							
+						</g:AbsolutePanel>
+					</g:stack>
+					<g:stack>
+						<g:header size="25">纤芯管理</g:header>
+						<g:AbsolutePanel width="800" height="404">
+							<g:at left="10" top="30">
+								<p1:CellTable ui:field="fiberTable" width="778px" height="325px"/>
+							</g:at>
+							<g:at left="34" top="365">
+								<g:Button ui:field="addFiber">新增</g:Button>
+							</g:at>
+							<g:at left="102" top="365">
+								<g:Button ui:field="updateFiber">修改</g:Button>
+							</g:at>
+							<g:at left="169" top="365">
+								<g:Button ui:field="deleteFiber">删除</g:Button>
+							</g:at>
+						</g:AbsolutePanel>
+					</g:stack>
+				</g:StackLayoutPanel>
+			</g:at>
+		</g:AbsolutePanel>
+	</g:HTMLPanel>
+</ui:UiBinder> 

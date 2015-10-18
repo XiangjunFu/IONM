@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-16 9:35:31 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.TerminalUnit" table="terminalUnit" schema="dbo" catalog="wanmaodn">
+        <id name="terminalUnitId" type="int">
+            <column name="terminalUnitId" />
+            <generator class="native" />
+        </id>
+        <property name="terminalUnitName" type="string">
+            <column name="terminalUnitName" not-null="true" />
+        </property>
+        <property name="terminalUnitCode" type="string">
+            <column name="terminalUnitCode" />
+        </property>
+        <property name="hostDeviceId" type="string">
+            <column name="HostDeviceID" />
+        </property>
+        <property name="terminalNum" type="java.lang.Integer">
+            <column name="terminalNum" />
+        </property>
+        <property name="occupiedNum" type="java.lang.Integer">
+            <column name="occupiedNum" />
+        </property>
+        <property name="damagedNum" type="java.lang.Integer">
+            <column name="damagedNum" />
+        </property>
+        <property name="columnNumber" type="java.lang.Integer">
+            <column name="columnNumber" />
+        </property>
+        <property name="rowNumber" type="java.lang.Integer">
+            <column name="rowNumber" />
+        </property>
+        <property name="originalFrame" type="java.lang.Integer">
+            <column name="originalFrame" />
+        </property>
+        <property name="frameNum" type="java.lang.Integer">
+            <column name="frameNum" />
+        </property>
+        <property name="status" type="string">
+            <column name="status" />
+        </property>
+        <property name="type" type="string">
+            <column name="type" />
+        </property>
+        <property name="terminalUnitSeq" type="string">
+            <column name="terminalUnitSeq" />
+        </property>
+    </class>
+</hibernate-mapping>

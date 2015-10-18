@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-12-18 21:06:54 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wanma.domain.JobOrder" table="JobOrder" schema="dbo" catalog="wanmaodn">
+        <id name="jobOrderId" type="int">
+            <column name="jobOrderId" />
+            <generator class="native" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" />
+        </property>
+        <property name="code" type="string">
+            <column name="code" not-null="true" />
+        </property>
+        <property name="businessType" type="string">
+            <column name="businessType" />
+        </property>
+        <property name="businessNo" type="java.lang.Integer">
+            <column name="businessNo" />
+        </property>
+        <property name="customer" type="string">
+            <column name="customer" />
+        </property>
+        <property name="customerOrder" type="java.lang.Integer">
+            <column name="customerOrder" />
+        </property>
+        <property name="businessInfor" type="string">
+            <column name="businessInfor" />
+        </property>
+        <property name="fiberLinkType" type="string">
+            <column name="fiberLinkType" />
+        </property>
+        <property name="fiberLinkCode" type="string">
+            <column name="fiberLinkCode" />
+        </property>
+        <property name="ameType" type="string">
+            <column name="aMeType" />
+        </property>
+        <property name="ameCode" type="string">
+            <column name="aMeCode" />
+        </property>
+        <property name="aportCode" type="string">
+            <column name="aPortCode" />
+        </property>
+        <property name="zmeType" type="string">
+            <column name="zMeType" />
+        </property>
+        <property name="zmeCode" type="string">
+            <column name="zMeCode" />
+        </property>
+        <property name="zportCode" type="string">
+            <column name="zPortCode" />
+        </property>
+        <property name="creator" type="string">
+            <column name="creator" />
+        </property>
+        <property name="workOrderType" type="byte">
+            <column name="workOrderType" not-null="true" />
+        </property>
+        <property name="createTime" type="timestamp">
+            <column name="createTime" length="16" />
+        </property>
+        <property name="deadline" type="timestamp">
+            <column name="deadline" length="16" />
+        </property>
+        <property name="dispatchedTime" type="timestamp">
+            <column name="dispatchedTime" length="16" />
+        </property>
+        <property name="status" type="java.lang.Short">
+            <column name="status" />
+        </property>
+        <property name="acard" type="string">
+            <column name="aCard" />
+        </property>
+        <property name="zcard" type="string">
+            <column name="zCard" />
+        </property>
+    </class>
+</hibernate-mapping>
